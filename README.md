@@ -13,3 +13,9 @@ Google Maps Adobe Air Native Extension for iOS 9.0+ and Android 19+. Also includ
 
 [asdocs](https://tuarua.github.io/asdocs/googlemapsane/) [github](https://github.com/tuarua/Google-Maps-ANE)
 
+
+#### [FreSwift](https://github.com/tuarua/Swift-IOS-ANE)
+FlashRuntimeExtensions.swift. Example Air Native Extension written in Swift 3 for iOS 9
+
+[swiftdocs](https://tuarua.github.io/swiftdocs/freswift/) [github](https://github.com/tuarua/Swift-IOS-ANE)
+
