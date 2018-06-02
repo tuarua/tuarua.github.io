@@ -1,0 +1,9 @@
+Text for description in com.tuarua.firebase:FirebaseOptions/androidClientId is not valid.
+org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 26; The entity "commat" was referenced, but not declared.
+
+Text for description in com.tuarua.firebase:FirebaseOptions/clientId is not valid.
+org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 22; The entity "commat" was referenced, but not declared.
+
+Text for description in com.tuarua.firebase:FirebaseOptions/trackingId is not valid.
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 62; The entity "commat" was referenced, but not declared.
+
