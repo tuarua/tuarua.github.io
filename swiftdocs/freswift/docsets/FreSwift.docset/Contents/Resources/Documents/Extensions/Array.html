@@ -14,7 +14,7 @@
     <a title="Array Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FreSwift Docs</a> (100% documented)</p>
+        <p><a href="../index.html">FreSwift Docs</a> (98% documented)</p>
         <p class="header-right"><a href="https://github.com/tuarua/Swift-IOS-ANE"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Ftuarua%2Egithub%2Eio%2Fswiftdocs%2Ffreswift%2Fdocsets%2FFreSwift%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -33,10 +33,10 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/ArgCountError.html">ArgCountError</a>
+                <a href="../Classes/FREArray.html">FREArray</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FREArray.html">FREArray</a>
+                <a href="../Classes/FreArgError.html">FreArgError</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FreBitmapDataSwift.html">FreBitmapDataSwift</a>
@@ -103,6 +103,9 @@
                 <a href="../Extensions/NSColor.html">NSColor</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Extensions/NSNumber.html">NSNumber</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
               </li>
               <li class="nav-group-task">
@@ -149,385 +152,13 @@
             <h1>Array</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span> <span class="p">:</span> <span class="n">_DestructorSafeContainer</span></code></pre>
 
                 </div>
               </div>
             
           </section>
           <section class="section task-group-section">
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSSRszlESaySSGSgSvSgcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSSRszlESaySSGSgSvSgcfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a Array<String> from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;.</span><span class="nf">init</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>freObject</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>FREObject which is of AS3 type Vector.<String></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Array<String>?</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1118-L1130">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSSRszlE11toFREObjectSvSgyF"></a>
-                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSSRszlE11toFREObjectSvSgyF">toFREObject()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>toFREObject: Converts an String Array into a FREObject of AS3 type Vector.<String>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>FREObject</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1134-L1140">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSiRszlESaySiGSgSvSgcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSiRszlESaySiGSgSvSgcfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a Array<Int> from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;.</span><span class="nf">init</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>freObject</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>FREObject which is of AS3 type Vector.<Int></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Array<Int>?</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1151-L1163">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSiRszlE11toFREObjectSvSgyF"></a>
-                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSiRszlE11toFREObjectSvSgyF">toFREObject()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>toFREObject: Converts an Int Array into a FREObject of AS3 type Vector.<int>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>FREObject</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1167-L1173">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSbRszlESaySbGSgSvSgcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSbRszlESaySbGSgSvSgcfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a Array<Bool> from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;.</span><span class="nf">init</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>freObject</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>FREObject which is of AS3 type Vector.<Boolean></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Array<Bool>?</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1184-L1196">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSbRszlE11toFREObjectSvSgyF"></a>
-                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSbRszlE11toFREObjectSvSgyF">toFREObject()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>toFREObject: Converts a Bool Array into a FREObject of AS3 type Vector.<Boolean>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>FREObject</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1200-L1206">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSdRszlESaySdGSgSvSgcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSdRszlESaySdGSgSvSgcfc">init(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a Array<Double> from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Double</span><span class="o">&gt;.</span><span class="nf">init</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>freObject</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>FREObject which is of AS3 type Vector.<Number></p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Array<Double>?</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1217-L1229">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sa8FreSwiftSdRszlE11toFREObjectSvSgyF"></a>
-                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sa8FreSwiftSdRszlE11toFREObjectSvSgyF">toFREObject()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>toFREObject: Converts a Double Array into a FREObject of AS3 type Vector.<Number>.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>FREObject</p>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1233-L1239">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
             <div class="task-group">
               <ul>
                 <li class="item">
@@ -543,8 +174,8 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a Array<Any> from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Any</span><span class="o">&gt;.</span><span class="nf">init</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+                        <p>init: Initialise a [Any] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Any</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </code></pre>
 
                       </div>
@@ -552,7 +183,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
 
                         </div>
                       </div>
@@ -577,10 +208,10 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Array<Any>?</p>
+                        <p>[Any]?</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1250-L1262">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L284-L296">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -605,7 +236,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -614,7 +245,472 @@
                         <p>FREObject</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L1266-L1272">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L300-L306">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSdRszlESaySdGSgSvSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSdRszlESaySdGSgSvSgcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a [Double] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Double</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type Vector.<Number></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[Double]?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L317-L329">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSdRszlE11toFREObjectSvSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSdRszlE11toFREObjectSvSgyF">toFREObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>toFREObject: Converts a Double Array into a FREObject of AS3 type Vector.<Number>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L333-L339">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSbRszlESaySbGSgSvSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSbRszlESaySbGSgSvSgcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a [Bool] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Bool</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type Vector.<Boolean></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[Bool]?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L350-L362">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSbRszlE11toFREObjectSvSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSbRszlE11toFREObjectSvSgyF">toFREObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>toFREObject: Converts a Bool Array into a FREObject of AS3 type Vector.<Boolean>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L366-L372">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSuRszlESaySuGSgSvSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSuRszlESaySuGSgSvSgcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a [UInt] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">UInt</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type Vector.<UInt></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[UInt]?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L383-L395">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSuRszlE11toFREObjectSvSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSuRszlE11toFREObjectSvSgyF">toFREObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>toFREObject: Converts an Int Array into a FREObject of AS3 type Vector.<int>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L399-L405">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSiRszlESaySiGSgSvSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSiRszlESaySiGSgSvSgcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a [Int] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">Int</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type Vector.<Int></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[Int]?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L416-L429">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSiRszlE11toFREObjectSvSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSiRszlE11toFREObjectSvSgyF">toFREObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>toFREObject: Converts an Int Array into a FREObject of AS3 type Vector.<int>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L433-L439">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSSRszlESaySSGSgSvSgcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSSRszlESaySSGSgSvSgcfc">init(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a [String] from a FREObject.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="kt">String</span><span class="p">](</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type Vector.<String></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String]?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L450-L462">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa8FreSwiftSSRszlE11toFREObjectSvSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa8FreSwiftSSRszlE11toFREObjectSvSgyF">toFREObject()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>toFREObject: Converts an String Array into a FREObject of AS3 type Vector.<String>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L466-L472">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -624,8 +720,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-04-16)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-07-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

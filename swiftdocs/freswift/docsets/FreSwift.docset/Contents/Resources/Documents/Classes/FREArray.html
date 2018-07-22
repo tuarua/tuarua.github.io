@@ -14,7 +14,7 @@
     <a title="FREArray Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FreSwift Docs</a> (100% documented)</p>
+        <p><a href="../index.html">FreSwift Docs</a> (98% documented)</p>
         <p class="header-right"><a href="https://github.com/tuarua/Swift-IOS-ANE"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Ftuarua%2Egithub%2Eio%2Fswiftdocs%2Ffreswift%2Fdocsets%2FFreSwift%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -33,10 +33,10 @@
             <a href="../Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/ArgCountError.html">ArgCountError</a>
+                <a href="../Classes/FREArray.html">FREArray</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/FREArray.html">FREArray</a>
+                <a href="../Classes/FreArgError.html">FreArgError</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FreBitmapDataSwift.html">FreBitmapDataSwift</a>
@@ -103,6 +103,9 @@
                 <a href="../Extensions/NSColor.html">NSColor</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Extensions/NSNumber.html">NSNumber</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Extensions/String.html">String</a>
               </li>
               <li class="nav-group-task">
@@ -149,7 +152,7 @@
             <h1>FREArray</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">FREArray</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">FREArray</span> <span class="p">:</span> <span class="kt">Sequence</span></code></pre>
 
                 </div>
               </div>
@@ -159,6 +162,36 @@
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift8FREArrayC12makeIterators08IndexingE0VySaySvGGyF"></a>
+                    <a name="//apple_ref/swift/Method/makeIterator()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC12makeIterators08IndexingE0VySaySvGGyF">makeIterator()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>iterator for FREArray</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">makeIterator</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">FREObject</span><span class="o">&gt;.</span><span class="kt">Iterator</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L20-L28">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -179,12 +212,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">rawValue</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L349">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L31">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -209,7 +242,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -233,7 +266,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L354-L356">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L36-L38">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -263,7 +296,8 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">args</span><span class="p">:</span> <span class="kt">Any</span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, renamed: "FREArray(﹚", message: "Use the newer FREArray(className: String, length: Int, fixed: Bool﹚")</span>
+<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">args</span><span class="p">:</span> <span class="kt">Any</span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -299,7 +333,87 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L363-L370">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L46-L53">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift8FREArrayCACSS9className_Si6lengthSb5fixedtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(className:length:fixed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayCACSS9className_Si6lengthSb5fixedtKcfc">init(className:length:fixed:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a FREArray containing a Vector of type specified by className.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">newPerson</span> <span class="o">=</span> <span class="k">try</span> <span class="kt">FREArray</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="s">"com.tuarua.Person"</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+</code></pre>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>className</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>name of AS3 class to create</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>length</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>number of elements in the array</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fixed</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>whether the array is fixed</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L65-L70">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -317,7 +431,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a FREArray with a Array<Int>.</p>
+                        <p>init: Initialise a FREArray with a [Int].</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
@@ -329,7 +443,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">intArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">intArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -353,7 +467,61 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L376-L383">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L76-L82">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift8FREArrayCACSaySuG9uintArray_tKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(uintArray:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySuG9uintArray_tKcfc">init(uintArray:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>init: Initialise a FREArray with a [UInt].</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">uintArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">UInt</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>intArray</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>array to be converted</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L88-L94">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -371,7 +539,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a FREArray with a Array<String>.</p>
+                        <p>init: Initialise a FREArray with a [String].</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
@@ -383,7 +551,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">stringArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">stringArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -407,7 +575,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L389-L396">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L100-L106">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -425,7 +593,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a FREArray with a Array<Double>.</p>
+                        <p>init: Initialise a FREArray with a [Double].</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
@@ -437,7 +605,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">doubleArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Double</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">doubleArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Double</span><span class="p">])</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -461,7 +629,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L402-L409">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L112-L118">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -479,7 +647,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a FREArray with a Array<Bool>.</p>
+                        <p>init: Initialise a FREArray with a [Bool].</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
@@ -491,7 +659,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">boolArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Bool</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">boolArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Bool</span><span class="p">])</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -515,7 +683,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L415-L422">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L124-L130">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -533,7 +701,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a FREArray with a Array<Any>.</p>
+                        <p>init: Initialise a FREArray with a [Any].</p>
 <div class="aside aside-throws">
     <p class="aside-title">Throws</p>
     Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
@@ -545,7 +713,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">anyArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">anyArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -569,7 +737,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L428-L435">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L136-L142">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -599,7 +767,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">at</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">at</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -627,7 +795,7 @@
                         <p>FREObject?</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L442-L460">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L149-L167">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -657,7 +825,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="k">throws</span></code></pre>
 
                         </div>
                       </div>
@@ -697,7 +865,7 @@
                         <p>FREObject?</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L486-L488">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L211-L213">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -722,12 +890,12 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">UInt</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">UInt</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L491-L512">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L216-L237">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -752,16 +920,16 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">value</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">?]</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">value</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">?]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>Array<Any?></p>
+                        <p>[Any?]</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L516-L526">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L241-L251">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -783,14 +951,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>accessor: Returns FREObject at position index</p>
+                        <p>accessor: gets/sets FREObject at position index</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
@@ -818,7 +986,7 @@
                         <p>FREObject?</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.4.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L534-L541">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L259-L273">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -828,8 +996,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-04-16)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-07-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
