@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=3" value="<meta name=""Microsoft.Help.SelfBranded"" content=""true"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="PageItemTitle" format="<title>%%PageItemTitle%%</title>" --><title>StringUtils Class</title><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PageItemTitle" format="<meta name=""Title"" content=""%%PageItemTitle%%""/>" --><meta name="Title" content="StringUtils Class"/><!--DXMETADATA end-->    
+    
+
+    <!--DXMETADATA start type="PackageLink" packagename="jquery" filetype="script" firstlinkattributes="id=""mshs_support_script"""--><script src="template/packages/jquery/script/chm.mshc/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PackageLink" packagename="jquery-ui" filetype="script"--><script src="template/packages/jquery-ui/script/chm.mshc/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PackageLink" packagename="jquery-ui" filetype="css"--><link rel="stylesheet" type="text/css" href="template/packages/jquery-ui/css/chm.mshc/jquery-ui-1.8.18.custom.css"></link><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="TemplateSettingsJson" format="<script type=""text/javascript"">var Innovasys=(Innovasys||{});$.extend(true,Innovasys,{settings:{versions:{popupContainer:'#i-after-header-content'}}},{settings:%%TemplateSettingsJson%%});</script>" --><script type="text/javascript">var Innovasys=(Innovasys||{});$.extend(true,Innovasys,{settings:{versions:{popupContainer:'#i-after-header-content'}}},{settings:{"dynamictoc":{"initialNodeId":"n0","initialNodeContainer":"c0"},"currentLocale":"-","isFrameless":false,"navigationKind":"frames","versions":{"locale":{"currentId":"-"}}}});</script><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="PackageLink" packagename="plugins-dotnet" filetype="css"--><link rel="stylesheet" type="text/css" href="template/packages/plugins-dotnet/css/chm.mshc/jquery-plugins.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PackageLink" packagename="core-dotnet" filetype="css" firstlinkattributes=" data-mshv2-stylesheet=""/template/packages/core-dotnet/dx.net.mshv2.css"" data-mshv1-stylesheet=""/template/packages/core-dotnet/dx.net.mshv1.css"" data-responsive-mobile=""template/packages/core-dotnet/dx.net.mobile.css"" data-responsive-tablet=""template/packages/core-dotnet/dx.net.tablet.css"""--><link rel="stylesheet" type="text/css" href="template/packages/core-dotnet/css/dx.net.css"  data-mshv2-stylesheet="/template/packages/core-dotnet/dx.net.mshv2.css" data-mshv1-stylesheet="/template/packages/core-dotnet/dx.net.mshv1.css" data-responsive-mobile="template/packages/core-dotnet/dx.net.mobile.css" data-responsive-tablet="template/packages/core-dotnet/dx.net.tablet.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PackageLink" packagename="plugins-dotnet" filetype="script"--><script src="template/packages/plugins-dotnet/script/chm.mshc/jquery-plugins.min.js" type="text/javascript"></script><!--DXMETADATA end-->
+    <!--DXMETADATA start type="PackageLink" packagename="core-dotnet" filetype="script"--><script src="template/packages/core-dotnet/script/dx.net.min.js" type="text/javascript"></script><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="TopicId" format="<meta name=""Microsoft.Help.Id"" content=""%%TopicId%%""/>" --><meta name="Microsoft.Help.Id" content="FreSharp~TuaRua.FreSharp.Utils.StringUtils"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Synopsis" StripHtmlTags="True" MaxLength="250" format="<meta name=""Description"" content=""%%Synopsis%%"" />"--><meta name="Description" content="
+            
+            " /><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocParentId" format="<meta name=""Microsoft.Help.TocParent"" content=""%%TocParentId%%""/>" --><meta name="Microsoft.Help.TocParent" content="FreSharp~TuaRua.FreSharp.Utils_namespace"/><!--DXMETADATA end-->
+    <meta name="Microsoft.Help.ContentType" content="Reference" /><!--DXMETADATA start type="DotNetSignature" format="<meta name=""Microsoft.Help.F1"" content=""%%DotNetSignature%%""/>" --><meta name="Microsoft.Help.F1" content="TuaRua.FreSharp.Utils.StringUtils"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvKeywords" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvMetaTags" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.Locale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.TopicLocale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="Stylesheets" --><link rel="stylesheet" type="text/css" href="stylesheets/customstyles.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Scripts" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="DesignTime"--><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_PROPERTIES" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="CustomHeadContent" --><!--DXMETADATA end-->
+</head>
+
+<body>
+    <div id="i-before-header-content" class="i-before-header-content">
+        
+    </div>
+    <div id="i-header-content" class="i-header-content">
+        <!--DXMETADATA start type="LogoImage" --><!--DXMETADATA end-->
+            <div class="i-project-title"><!--DXMETADATA start type="ProjectTitle" -->FreSharp<!--DXMETADATA end--></div>
+        <div class="i-page-title"><div class="i-page-title-text"><!--DXMETADATA start type="PageItemTitle" -->StringUtils Class<!--DXMETADATA end--></div></div>
+    </div>
+    <div id="i-after-header-content" class="i-after-header-content">
+        <!--DXMETADATA start type="Literal" value="<a class=""i-page-link"" href=""%%itemqualifiedname%%_members%%OutputFileExtension%%"">$$Members$$</a>&nbsp;" condition="content:content=""%%itemtype%%"",operator=""<>"",value=""Enumeration"""--><a class="i-page-link" href="FreSharp~TuaRua.FreSharp.Utils.StringUtils_members.html">Members</a>&nbsp;<!--DXMETADATA end-->
+                    <!--DXMETADATA start type="Literal" condition="childitems:itemtype=example,filter=""type=inline""" value="<a class=""i-page-link"" href=""#ExampleBookmark"">$$Example$$</a>&nbsp;" --><!--DXMETADATA end --><!-- Spacing --> <span class="i-toggle-all-sections i-function-link">
+                <label class="i-collapse-all"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                <label class="i-expand-all" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+            </span><!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_DROPDOWN%%" --><!--DXMETADATA end --><!-- Spacing --> <span class="i-language-filter i-popup-link" data-popup-contentsource="#i-language-options" data-popup-title='<!--DXMETADATA start type="Phrase" name="Language_Filter" -->Language Filter<!--DXMETADATA end -->'>
+                <label class="i-language-filter-all">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter_All" -->Language Filter: All<!--DXMETADATA end -->
+                </label>
+                <label class="i-language-filter-multiple" style="display: none;">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter_Multiple" -->Language Filter: Multiple<!--DXMETADATA end -->
+                </label>
+                <label class="i-language-filter-vball" style="display: none;">
+                    <!--DXMETADATA start type="Phrase" name="Language_Filter" -->Language Filter<!--DXMETADATA end -->: <!--DXMETADATA start type="Phrase" name="Language_VB" -->Visual Basic<!--DXMETADATA end -->
+                </label>				
+                <!--DXMETADATA start type="FilteredItemList" scrap="LANGUAGE_LABEL_LIST" namespace="language" filter="type=all" source="Item" format="" -->
+<label class="i-VB-label" style="display: none;">Language Filter: Visual Basic (Declaration)</label>
+<label class="i-VBUsage-label" style="display: none;">Language Filter: Visual Basic (Usage)</label>
+<label class="i-CS-label" style="display: none;">Language Filter: C#</label>
+<label class="i-CPP2005-label" style="display: none;">Language Filter: C++/CLI</label>
+<!--DXMETADATA end -->
+            </span>
+            <div class="i-popup-content" id="i-language-options">
+                <!--DXMETADATA start type="FilteredItemList" scrap="LANGUAGE_CHECKBOX_LIST" namespace="language" filter="type=all" source="Item" format="" -->
+<input data-languagename="VB" id="i-VB-language-checkbox" type="checkbox" class="i-toggle-language-checkbox" checked="true" data-toggleclass="i-filtered-content-VB"/>
+<label class="i-language-filter" for="i-VB-language-checkbox">
+Visual Basic (Declaration)
+</label>
+<br /><input data-languagename="VBUsage" id="i-VBUsage-language-checkbox" type="checkbox" class="i-toggle-language-checkbox" checked="true" data-toggleclass="i-filtered-content-VBUsage"/>
+<label class="i-language-filter" for="i-VBUsage-language-checkbox">
+Visual Basic (Usage)
+</label>
+<br /><input data-languagename="CS" id="i-CS-language-checkbox" type="checkbox" class="i-toggle-language-checkbox" checked="true" data-toggleclass="i-filtered-content-CS"/>
+<label class="i-language-filter" for="i-CS-language-checkbox">
+C#
+</label>
+<br /><input data-languagename="CPP2005" id="i-CPP2005-language-checkbox" type="checkbox" class="i-toggle-language-checkbox" checked="true" data-toggleclass="i-filtered-content-CPP2005"/>
+<label class="i-language-filter" for="i-CPP2005-language-checkbox">
+C++/CLI
+</label>
+<!--DXMETADATA end -->
+            </div>
+        <!--DXMETADATA start type="IsWebOutputRootPageLinkEnabled" format="<a href='#' class="i-page-link" class="i-view-in-frame-link" title='$$VIEW_WITH_NAVIGATION_TOOLS_TIP$$' style='display: none' data-root-page='%%WebOutputRootPage%%%%OutputFileExtension%%' target='_top'>$$VIEW_WITH_NAVIGATION_TOOLS_TEXT$$</a>" --><!--DXMETADATA end-->
+    </div>
+    <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><div class="i-breadcrumbs-container"><table><tr><td>
+<a href="FreSharp~TuaRua.FreSharp.Utils_namespace.html">TuaRua.FreSharp.Utils Namespace</a>
+ : StringUtils Class</td></tr></table></div><!--DXMETADATA end -->
+    
+    <!--DXMETADATA start type="FilteredItemList" scrap="GENERICARGUMENT_BUBBLES" namespace="generic argument" source="Item" --><!--DXMETADATA end -->
+    <div id="i-body-content" class="i-body-content">
+        <!--DXMETADATA start type="Description" source="Item" format="<div class=""i-description-content"">%%description%%</div>" --><div class="i-description-content">
+            
+            </div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="Diagram" source="item" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=objectmodel,caption=$$Object_Model$$%%%%Diagram%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="SyntaxSection" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=syntax,caption=$$Syntax$$%%%%SyntaxSection%%</div>" --><div class="i-section-heading" id="i-syntax-section-heading"><span class="i-section-heading-icon"><!-- --></span><span class="i-section-heading-text">Syntax</span></div><div id="i-syntax-section-content" class="i-section-content">
+            <div class="i-tab-container i-tab-container">
+            <ul>
+            
+            <li class="i-filtered-content-VBAll"><a href="#i-syntax-VBAll">Visual Basic</a></li>
+        
+
+            <li class="i-filtered-content-CS"><a href="#i-syntax-CS">C#</a></li>
+        
+
+            <li class="i-filtered-content-CPP2005"><a href="#i-syntax-CPP2005">C++/CLI</a></li>
+        
+
+            </ul>
+            
+            <div id="i-syntax-VB" class="i-filtered-content-VB">
+            <pre><pre><span style="color: #008000; ">'Declaration
+</span> 
+</pre><pre><span style="color: #0000FF; ">Public</span> <span style="color: #0000FF; ">Class</span> StringUtils </pre></pre>
+            </div>
+        
+
+            <div id="i-syntax-VBUsage" class="i-filtered-content-VBUsage">
+            <pre><pre><span style="color: #008000; ">'Usage
+</span> 
+</pre><pre><span style="color: #0000FF; ">Dim</span> instance <span style="color: #0000FF; ">As</span> <a href="FreSharp~TuaRua.FreSharp.Utils.StringUtils.html">StringUtils</a></pre></pre>
+            </div>
+        
+
+            <div id="i-syntax-CS" class="i-filtered-content-CS">
+            <pre><pre><span style="color: #0000FF; ">public</span> <span style="color: #0000FF; ">class</span> StringUtils </pre></pre>
+            </div>
+        
+
+            <div id="i-syntax-CPP2005" class="i-filtered-content-CPP2005">
+            <pre><pre><span style="color: #0000FF; ">public</span> <span style="color: #0000FF; ">ref</span> <span style="color: #0000FF; ">class</span> StringUtils </pre></pre>
+            </div>
+        
+
+            </div>
+        </div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="GENERICARGUMENT_LIST" namespace="generic argument" source="Item" filter="" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=genericarguments,caption=$$GenericArguments$$%%%%filtereditemlist%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="CONTRACT_INVARIANT_LIST" namespace="contract" source="Item" filter="type=invariant" designtime="true" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="PERMISSION_LIST" namespace="permission" source="Item" filter="" designtime="true" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=permissions,caption=""$$Permissions$$%%designlist:tagidentifier=##PERMISSION,itemtype=Permission%%""%%%%filtereditemlist%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##REMARKS,##MODULE_REMARKS" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=remarks,caption=$$Remarks$$%%%%comment%%</div>" --><!--DXMETADATA end -->
+            <a name="exampleBookmark"></a>
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##EXAMPLEINTRO" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=""$$Example$$%%designlist:tagidentifier=##EXAMPLECODE,itemtype=Example%%""%%%%comment%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="EXAMPLEGROUP_LIST" namespace="ExampleGroup" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""="",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="INLINE_EXAMPLE" namespace="Example" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""<>"",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="MENU_LINK" namespace="example" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%%%filtereditemlist%%</div>" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="InheritanceHierarchy" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=inheritance,caption=$$Inheritance_hierarchy$$%%%%InheritanceHierarchy%%</div>" --><div class="i-section-heading" id="i-inheritance-section-heading"><span class="i-section-heading-icon"><!-- --></span><span class="i-section-heading-text">Inheritance Hierarchy</span></div><div id="i-inheritance-section-content" class="i-section-content"><P><a href="#" onclick="javascript:navigateToHelp2Keyword('frlrfSystemObjectClassTopic','System.Object')">System.Object</a><BR />&nbsp;&nbsp;&nbsp;<STRONG>TuaRua.FreSharp.Utils.StringUtils</STRONG><BR /></P></div><!--DXMETADATA end -->
+            <!--DXMETADATA start type="TaggedComment" source="Item" id="##REQUIREMENTS" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=requirements,caption=$$Requirements$$%%%%comment%%</div>" blankformat="%%variable:name=defaulttyperequirements%%" --><div class="i-section-heading" id="i-requirements-section-heading"><span class="i-section-heading-icon"><!-- --></span><span class="i-section-heading-text">Requirements</span></div><div id="i-requirements-section-content" class="i-section-content"><p><b>Target Platforms:</b> Windows 7, Windows Vista SP1 or later, Windows XP SP3, Windows Server 2008 (Server Core not supported), Windows Server 2008 R2 (Server Core supported with SP1 or later), Windows Server 2003 SP2</p></div><!--DXMETADATA end -->
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORIZED_LINKS" namespace="linkcategory" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""$$See_Also$$%%designlist:tagidentifier=##SEEALSO,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><div class="i-section-heading" id="i-seealso-section-heading"><span class="i-section-heading-icon"><!-- --></span><span class="i-section-heading-text">See Also</span></div><div id="i-seealso-section-content" class="i-section-content"><h4 class="i-sub-heading">Reference</h4><p><a href="FreSharp~TuaRua.FreSharp.Utils.StringUtils_members.html">StringUtils Members</a>
+<br/><a href="FreSharp~TuaRua.FreSharp.Utils_namespace.html">TuaRua.FreSharp.Utils Namespace</a>
+</p>
+</div><!--DXMETADATA end-->
+        
+    </div>
+    <div id="i-footer-content" class="i-footer-content">
+        <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_FOOTER" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr style=""height: 1px"" /><p>%%variable%%</p>" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><a href="mailto:support@company.com?subject=Documentation Feedback: FreSharp~TuaRua.FreSharp.Utils.StringUtils.html">Send Feedback</a><!--DXMETADATA end-->
+    </div>
+    
+
+    <!--DXMETADATA start type="IsNew" format="<script type=""text/javascript"">setIsNew = true;</script>" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<script type=""text/javascript"">setIsResponsiveEnabled = true;</script>" --><!--DXMETADATA end-->
+    <script type="text/javascript">
+        $(function() {
+            var documentInstance = new Innovasys.Content.Document(document.body);
+            documentInstance.isNew = !(typeof setIsNew === "undefined");
+            documentInstance.isResponsiveEnabled = !(typeof setIsResponsiveEnabled === "undefined");
+            documentInstance.load();
+        });
+    </script>
+</body>
+</html>

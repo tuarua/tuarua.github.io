@@ -1,0 +1,170 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>FreBitmapDataKotlin - FreKotlin</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">FreKotlin</a>&nbsp;/&nbsp;<a href="../index.html">com.tuarua.frekotlin.display</a>&nbsp;/&nbsp;<a href="./index.html">FreBitmapDataKotlin</a><br/>
+<br/>
+<h1>FreBitmapDataKotlin</h1>
+<code><span class="keyword">class </span><span class="identifier">FreBitmapDataKotlin</span></code>
+<p>A wrapper for handling FREBitmapData</p>
+<h3>Parameters</h3>
+<p><a name="value"></a>
+<code>value</code> - the FREBitmapData to create this class from.</p>
+<p><a name="bitmap"></a>
+<code>bitmap</code> - the Bitmap to create this class from.</p>
+<p><a name="swapColors"></a>
+<code>swapColors</code> - swap the colors.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">FreBitmapDataKotlin</span><span class="symbol">(</span><span class="symbol">)</span></code><br/>
+<code><span class="identifier">FreBitmapDataKotlin</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$<init>(com.tuarua.frekotlin.display.FreBitmapDataKotlin)/value">value</span><span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">FreBitmapDataKotlin</span></a><span class="symbol">)</span></code><br/>
+<code><span class="identifier">FreBitmapDataKotlin</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$<init>(com.adobe.fre.FREObject)/value">value</span><span class="symbol">:</span>&nbsp;<span class="identifier">FREObject</span><span class="symbol">)</span></code><br/>
+<code><span class="identifier">FreBitmapDataKotlin</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$<init>(com.adobe.fre.FREBitmapData)/value">value</span><span class="symbol">:</span>&nbsp;<span class="identifier">FREBitmapData</span><span class="symbol">)</span></code><br/>
+<code><span class="identifier">FreBitmapDataKotlin</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$<init>(android.graphics.Bitmap, kotlin.Boolean)/bitmap">bitmap</span><span class="symbol">:</span>&nbsp;<span class="identifier">Bitmap</span><span class="symbol">, </span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$<init>(android.graphics.Bitmap, kotlin.Boolean)/swapColors">swapColors</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;true<span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="bits32.html">bits32</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">bits32</span><span class="symbol">: </span><a href="http://docs.oracle.com/javase/6/docs/api/java/nio/ByteBuffer.html"><span class="identifier">ByteBuffer</span></a><span class="symbol">?</span></code>
+<p>A ByteBuffer of the bitmap.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="has-alpha.html">hasAlpha</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">hasAlpha</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>A Bool that indicates whether the bitmap supports per-pixel transparency. This value corresponds
+to the transparent property of the ActionScript BitmapData class object. If the value is non-zero, then the
+pixel format is ARGB32. If the value is zero, the pixel format is _RGB32. Whether the value is big endian
+or little endian depends on the host device. This field is read-only.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="height.html">height</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">height</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>An Int that specifies the height, in pixels, of the bitmap. This value corresponds to the height
+property of the ActionScript BitmapData class object. This field is read-only.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-inverted-y.html">isInvertedY</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isInvertedY</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>A Bool that indicates the order in which the rows of bitmap data in the image are stored. A
+non-zero value means that the bottom row of the image appears first in the image data (in other words, the first
+value in the bits32 array is the first pixel of the last row in the image). A zero value means that the top row of
+the image appears first in the image data. This field is read-only.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-premultiplied.html">isPremultiplied</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isPremultiplied</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>A Bool that indicates whether the bitmap pixels are stored as premultiplied color
+values. A true value means the values are premultipled. This field is read-only.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="line-stride32.html">lineStride32</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">lineStride32</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>An Int that specifies the number of UInt values per scanline. This value is typically
+the same as the width parameter. This field is read-only.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="raw-value.html">rawValue</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">rawValue</span><span class="symbol">: </span><span class="identifier">FREBitmapData</span><span class="symbol">?</span></code>
+<p>the raw FREBitmapData value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="width.html">width</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">width</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>An Int that specifies the width, in pixels, of the bitmap. This value corresponds to the
+width property of the ActionScript BitmapData class object. This field is read-only.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="acquire.html">acquire</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">acquire</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>See the original <a href="https://help.adobe.com/en_US/air/extensions/WS11d1def534ea1be0-67da1176132a8869db6-7ffe.html">Adobe documentation</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="invalidate-rect.html">invalidateRect</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">invalidateRect</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$invalidateRect(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int)/x">x</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$invalidateRect(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int)/y">y</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$invalidateRect(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int)/width">width</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin$invalidateRect(kotlin.Int, kotlin.Int, kotlin.Int, kotlin.Int)/height">height</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>See the original <a href="https://help.adobe.com/en_US/air/extensions/WS11d1def534ea1be0-67da1176132a8869db6-7ffe.html">Adobe documentation</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="release.html">release</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">release</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>See the original <a href="https://help.adobe.com/en_US/air/extensions/WS11d1def534ea1be0-67da1176132a8869db6-7ffe.html">Adobe documentation</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="do-swap-colors.html">doSwapColors</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">doSwapColors</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.display.FreBitmapDataKotlin.Companion$doSwapColors(android.graphics.Bitmap)/inBitmap">inBitmap</span><span class="symbol">:</span>&nbsp;<span class="identifier">Bitmap</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Bitmap</span></code>
+<p>swaps the Red and Blue Colors of the Bitmap.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

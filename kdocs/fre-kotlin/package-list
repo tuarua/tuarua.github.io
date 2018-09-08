@@ -1,0 +1,38 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.tuarua.frekotlin$call(com.adobe.fre.FREObject, kotlin.String)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/call.html
+$dokka.location:com.tuarua.frekotlin$call(com.adobe.fre.FREObject, kotlin.String, kotlin.Array((com.adobe.fre.FREObject)))com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/call.html
+$dokka.location:com.tuarua.frekotlin$call(com.adobe.fre.FREObject, kotlin.String, kotlin.Array((kotlin.Any)))com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/call.html
+$dokka.location:com.tuarua.frekotlin$get(com.adobe.fre.FREArray, kotlin.Int)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-array/get.html
+$dokka.location:com.tuarua.frekotlin$get(com.adobe.fre.FREObject, kotlin.String)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/get.html
+$dokka.location:com.tuarua.frekotlin$hasOwnProperty(com.adobe.fre.FREObject, kotlin.String)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/has-own-property.html
+$dokka.location:com.tuarua.frekotlin$iterator(com.adobe.fre.FREArray)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-array/iterator.html
+$dokka.location:com.tuarua.frekotlin$push(com.adobe.fre.FREArray, kotlin.Array((kotlin.Any)))com.tuarua.frekotlin/com.adobe.fre.-f-r-e-array/push.html
+$dokka.location:com.tuarua.frekotlin$set(com.adobe.fre.FREArray, kotlin.Int, com.adobe.fre.FREObject)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-array/set.html
+$dokka.location:com.tuarua.frekotlin$set(com.adobe.fre.FREObject, kotlin.String, com.adobe.fre.FREObject)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/set.html
+$dokka.location:com.tuarua.frekotlin$toColor(com.adobe.fre.FREObject, kotlin.Boolean)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/to-color.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(java.util.Date)com.tuarua.frekotlin/java.util.-date/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Boolean)com.tuarua.frekotlin/kotlin.-boolean/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.BooleanArray)com.tuarua.frekotlin/kotlin.-boolean-array/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.ByteArray)com.tuarua.frekotlin/kotlin.-byte-array/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Double)com.tuarua.frekotlin/kotlin.-double/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.DoubleArray)com.tuarua.frekotlin/kotlin.-double-array/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Float)com.tuarua.frekotlin/kotlin.-float/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Int)com.tuarua.frekotlin/kotlin.-int/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.IntArray)com.tuarua.frekotlin/kotlin.-int-array/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Long)com.tuarua.frekotlin/kotlin.-long/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.Short)com.tuarua.frekotlin/kotlin.-short/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.String)com.tuarua.frekotlin/kotlin.-string/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toFREObject(kotlin.collections.List((kotlin.String)))com.tuarua.frekotlin/kotlin.collections.-list/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin$toHSV(com.adobe.fre.FREObject, kotlin.Boolean)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/to-h-s-v.html
+$dokka.location:com.tuarua.frekotlin$toStr(com.adobe.fre.FREObject, kotlin.Boolean)com.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/to-str.html
+$dokka.location:com.tuarua.frekotlin$type#com.adobe.fre.FREObjectcom.tuarua.frekotlin/com.adobe.fre.-f-r-e-object/type.html
+$dokka.location:com.tuarua.frekotlin.display$toFREObject(android.graphics.Bitmap)com.tuarua.frekotlin.display/android.graphics.-bitmap/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin.geom$toFREObject(android.graphics.Point)com.tuarua.frekotlin.geom/android.graphics.-point/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin.geom$toFREObject(android.graphics.PointF)com.tuarua.frekotlin.geom/android.graphics.-point-f/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin.geom$toFREObject(android.graphics.Rect)com.tuarua.frekotlin.geom/android.graphics.-rect/to-f-r-e-object.html
+$dokka.location:com.tuarua.frekotlin.geom$toFREObject(android.graphics.RectF)com.tuarua.frekotlin.geom/android.graphics.-rect-f/to-f-r-e-object.html
+com.adobe.air
+com.tuarua.frekotlin
+com.tuarua.frekotlin.display
+com.tuarua.frekotlin.geom

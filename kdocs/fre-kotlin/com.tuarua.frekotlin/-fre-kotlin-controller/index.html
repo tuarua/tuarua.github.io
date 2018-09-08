@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>FreKotlinController - FreKotlin</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">FreKotlin</a>&nbsp;/&nbsp;<a href="../index.html">com.tuarua.frekotlin</a>&nbsp;/&nbsp;<a href="./index.html">FreKotlinController</a><br/>
+<br/>
+<h1>FreKotlinController</h1>
+<code><span class="keyword">interface </span><span class="identifier">FreKotlinController</span></code>
+<p>Subclass to allow us to dispatch events back to AIR</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-t-a-g.html">TAG</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">val </span><span class="identifier">TAG</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>This tag prefixes strings that are traced.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="context.html">context</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">var </span><span class="identifier">context</span><span class="symbol">: </span><span class="identifier">FREContext</span><span class="symbol">?</span></code>
+<p>the FREContext.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="dispatch-event.html">dispatchEvent</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">dispatchEvent</span><span class="symbol">(</span><span class="identifier" id="com.tuarua.frekotlin.FreKotlinController$dispatchEvent(kotlin.String, kotlin.String)/name">name</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.tuarua.frekotlin.FreKotlinController$dispatchEvent(kotlin.String, kotlin.String)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sends an asynchronous event to the ANE.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="info.html">info</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">info</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.tuarua.frekotlin.FreKotlinController$info(kotlin.Array((kotlin.Any)))/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sends StatusEvent to our swc with a level of "TRACE".
+The output string is prefixed with INFO:</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="trace.html">trace</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">trace</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.tuarua.frekotlin.FreKotlinController$trace(kotlin.Array((kotlin.Any)))/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sends StatusEvent to our swc with a level of "TRACE".</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="warning.html">warning</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">warning</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.tuarua.frekotlin.FreKotlinController$warning(kotlin.Array((kotlin.Any)))/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sends StatusEvent to our swc with a level of "TRACE".
+The output string is prefixed with WARNING:</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

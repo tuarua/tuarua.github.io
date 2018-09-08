@@ -1,0 +1,1362 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+   <param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreSharp Assembly">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Namespaces">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TuaRua.FreSharp Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FlashRuntimeExtensions">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsBitmap Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsBitmap.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsBool Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsBool.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsColor Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsColor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsDateTime Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsDateTime.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsDictionary Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsDictionary.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsDouble Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsDouble.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsInt Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsInt.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsShort Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsShort.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsString Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsString.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsUInt Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~AsUInt.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Call Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Call.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Call(IntPtr,String,Object[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Call(IntPtr,String,Object[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Call(IntPtr,String,ArrayList) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Call(IntPtr,String,ArrayList).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetProp Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~GetProp.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="hasOwnProperty Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~hasOwnProperty.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Init Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Init.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Init(IntPtr,String,Object[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Init(IntPtr,String,Object[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Init(IntPtr,String) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Init(IntPtr,String).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetProp Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~SetProp.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetProp(IntPtr,String,Object) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~SetProp(IntPtr,String,Object).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetProp(IntPtr,String,IntPtr) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~SetProp(IntPtr,String,IntPtr).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToArrayList Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToArrayList.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToArrayList(IntPtr) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToArrayList(IntPtr).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToArrayList(FREArray) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToArrayList(FREArray).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(String) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(String).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(DateTime) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(DateTime).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Boolean) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Boolean).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Int32[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Int32[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Boolean[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Boolean[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Double[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Double[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(String[]) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(String[]).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Color) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Color).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Int32) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Int32).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(UInt32) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(UInt32).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Double) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Double).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Single) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Single).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Int16) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Int16).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Int64) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Int64).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject(Bitmap) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~ToFREObject(Bitmap).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="toString Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~toString.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Type Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FlashRuntimeExtensions~Type.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(IntPtr)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(IntPtr).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(String)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(String).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(String,Int32,Boolean)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(String,Int32,Boolean).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(IEnumerable&lt;Int32&gt;)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(IEnumerable{Int32}).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(IEnumerable&lt;Double&gt;)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(IEnumerable{Double}).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(IEnumerable&lt;Boolean&gt;)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(IEnumerable{Boolean}).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FREArray Constructor(IEnumerable&lt;String&gt;)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~_ctor(IEnumerable{String}).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsArrayList Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsArrayList.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsBoolArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsBoolArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsDoubleArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsDoubleArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsIntArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsIntArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsStringArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsStringArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsUIntArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~AsUIntArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="At Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~At.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetEnumerator Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~GetEnumerator.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Push Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Push.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Set Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Set.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Set(UInt32,Object) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Set(UInt32,Object).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Set(UInt32,IntPtr) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Set(UInt32,IntPtr).html">
+     </OBJECT>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Item Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Item.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Length Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~Length.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FREArray~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreByteArraySharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreByteArraySharp Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Acquire Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~Acquire.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Release Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~Release.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Bytes Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~Bytes.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Length Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~Length.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreByteArraySharp~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreContextSharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreContextSharp Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="DispatchEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp~DispatchEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SendEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreContextSharp~SendEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectSharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectSharp Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~_ctor.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectSharp Constructor(IntPtr)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~_ctor(IntPtr).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectSharp Constructor(String)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~_ctor(String).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectSharp Constructor(String,Object[])">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~_ctor(String,Object[]).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="hasOwnProperty Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~hasOwnProperty.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TryConvert Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~TryConvert.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TryGetMember Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~TryGetMember.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TrySetMember Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~TrySetMember.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Type Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectSharp~Type.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreSharpController">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="DispatchEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~DispatchEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Info Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~Info.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SendEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~SendEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetFreContext Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~SetFreContext.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Trace Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~Trace.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Warning Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~Warning.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TAG Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~TAG.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Fields">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController_fields.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Context Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpController~Context.html">
+     </OBJECT>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreSharpLogger">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreSharpLogger Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetInstance Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~GetInstance.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Log Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~Log.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Log(String,FreResultSharp) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~Log(String,FreResultSharp).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Log(String,FreResultSharp,IntPtr) Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~Log(String,FreResultSharp,IntPtr).html">
+     </OBJECT>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Context Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpLogger~Context.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreSharpMainController">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CallSharpFunction Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~CallSharpFunction.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="DispatchEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~DispatchEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Info Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~Info.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="OnFinalize Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~OnFinalize.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SendEvent Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~SendEvent.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetFreContext Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~SetFreContext.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Trace Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~Trace.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Warning Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~Warning.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TAG Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~TAG.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Fields">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController_fields.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Context Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~Context.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FunctionsDict Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreSharpMainController~FunctionsDict.html">
+     </OBJECT>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Enumerations">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreObjectTypeSharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreObjectTypeSharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreResultSharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.FreResultSharp.html">
+     </OBJECT>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TuaRua.FreSharp.Display Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreBitmapDataSharp">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreBitmapDataSharp Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~_ctor.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreBitmapDataSharp Constructor(IntPtr)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~_ctor(IntPtr).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreBitmapDataSharp Constructor(Bitmap)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~_ctor(Bitmap).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Acquire Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~Acquire.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsBitmap Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~AsBitmap.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsByteArray Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~AsByteArray.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetAsBitmap Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~GetAsBitmap.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="InvalidateBitmapDataRect Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~InvalidateBitmapDataRect.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Release Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~Release.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Fields">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp_fields.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Bits32 Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~Bits32.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="HasAlpha Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~HasAlpha.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Height Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~Height.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="IsInvertedY Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~IsInvertedY.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="IsPremultiplied Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~IsPremultiplied.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="LineStride32 Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~LineStride32.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Width Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Display.FreBitmapDataSharp~Width.html">
+     </OBJECT>
+</UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TuaRua.FreSharp.Exceptions Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreArgException">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreArgException Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException~_ctor.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreArgException Constructor(Exception)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException~_ctor(Exception).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreArgException Constructor(String)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException~_ctor(String).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreArgException~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreException">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreException Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException~_ctor.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreException Constructor(Exception)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException~_ctor(Exception).html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreException Constructor(String)">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException~_ctor(String).html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RawValue Property">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Exceptions.FreException~RawValue.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TuaRua.FreSharp.Geom Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FrePoint">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsPoint Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint~AsPoint.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FrePoint~ToFREObject.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="FreRect">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AsRect Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect~AsRect.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToFREObject Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Geom.FreRect~ToFREObject.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TuaRua.FreSharp.Utils Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="BitmapUtils">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="BitmapUtils Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="BitmapToSource Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.BitmapUtils~BitmapToSource.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="StringUtils">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="StringUtils Constructor">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ToUtf8 Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.StringUtils~ToUtf8.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WinApi">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetDeviceCaps Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~GetDeviceCaps.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetScaleFactor Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~GetScaleFactor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetWindowLong Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~GetWindowLong.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="GetWindowRect Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~GetWindowRect.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="RegisterTouchWindow Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~RegisterTouchWindow.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetLayeredWindowAttributes Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~SetLayeredWindowAttributes.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="SetWindowPos Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~SetWindowPos.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ShowWindow Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~ShowWindow.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="UpdateWindow Method">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi~UpdateWindow.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Enumerations">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="DeviceCap">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.DeviceCap.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="LayeredWindowAttributeFlag">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.LayeredWindowAttributeFlag.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ShowWindowCommands">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.ShowWindowCommands.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="TouchWindowFlags">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.TouchWindowFlags.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WindowExStyles">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WindowExStyles.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WindowLongFlags">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WindowLongFlags.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WindowPositionFlags">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WindowPositionFlags.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WindowStyles">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WindowStyles.html">
+     </OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Structures">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="WinApi.Rect">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Fields">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect_fields.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="bottom Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect~bottom.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="left Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect~left.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="right Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect~right.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="top Field">
+        <param name="Local" value="FreSharp~TuaRua.FreSharp.Utils.WinApi+Rect~top.html">
+     </OBJECT>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+
+</UL>
+</BODY></HTML>
