@@ -1,0 +1,6 @@
+Text for description in com.tuarua.webview:Settings/useHiDPI is not valid.
+org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 11; The element type "p" must be terminated by the matching end-tag "</p>".
+
+Text for description in com.tuarua.webview:Settings/useTransparentBackground is not valid.
+org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 116; The element type "b" must be terminated by the matching end-tag "</b>".
+
