@@ -14,7 +14,7 @@
     <a title="FREArray Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FreSwift Docs</a> (98% documented)</p>
+        <p><a href="../index.html">FreSwift Docs</a> (100% documented)</p>
         <p class="header-right"><a href="https://github.com/tuarua/Swift-IOS-ANE"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Ftuarua%2Egithub%2Eio%2Fswiftdocs%2Ffreswift%2Fdocsets%2FFreSwift%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -52,6 +52,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FreError/Code.html">– Code</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FreObjectSwift.html">FreObjectSwift</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FreSwiftLogger.html">FreSwiftLogger</a>
               </li>
             </ul>
           </li>
@@ -176,6 +182,10 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>iterator for FREArray</p>
+<pre class="highlight swift"><code><span class="k">for</span> <span class="n">fre</span> <span class="k">in</span> <span class="n">airArray</span> <span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre>
 
                       </div>
                       <div class="declaration">
@@ -187,7 +197,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L20-L28">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L27-L35">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -217,7 +227,7 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L31">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L38">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -225,9 +235,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSvcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayCyACSvcfc"></a>
                     <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSvcfc">init(_:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayCyACSvcfc">init(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -266,7 +276,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L36-L38">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L43-L45">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -274,76 +284,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSS9className_yp4argsdtKcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(className:args:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSS9className_yp4argsdtKcfc">init(className:args:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a FREArray of type specified by className.</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available(*, deprecated, renamed: "FREArray(﹚", message: "Use the newer FREArray(className: String, length: Int, fixed: Bool﹚")</span>
-<span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">args</span><span class="p">:</span> <span class="kt">Any</span><span class="o">...</span><span class="p">)</span> <span class="k">throws</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>className</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>name of AS3 class to create</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>args</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>arguments to pass to the method</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L46-L53">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:8FreSwift8FREArrayCACSS9className_Si6lengthSb5fixedtKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC9className6length5fixedACSgSS_SiSbtcfc"></a>
                     <a name="//apple_ref/swift/Method/init(className:length:fixed:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSS9className_Si6lengthSb5fixedtKcfc">init(className:length:fixed:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC9className6length5fixedACSgSS_SiSbtcfc">init(className:length:fixed:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -352,20 +295,15 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray containing a Vector of type specified by className.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">newPerson</span> <span class="o">=</span> <span class="k">try</span> <span class="kt">FREArray</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="s">"com.tuarua.Person"</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">newPerson</span> <span class="o">=</span> <span class="kt">FREArray</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="s">"com.tuarua.Person"</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kc">true</span><span class="p">)</span>
 </code></pre>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">className</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">fixed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -413,7 +351,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L65-L70">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L56-L63">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -421,9 +359,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSaySiG8intArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC8intArrayACSgSaySiG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(intArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySiG8intArray_tKcfc">init(intArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC8intArrayACSgSaySiG_tcfc">init(intArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -432,18 +370,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [Int].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">intArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">intArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -467,7 +400,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L76-L82">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L68-L75">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -475,9 +408,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSaySuG9uintArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC9uintArrayACSaySuG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(uintArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySuG9uintArray_tKcfc">init(uintArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC9uintArrayACSaySuG_tcfc">init(uintArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -486,18 +419,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [UInt].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">uintArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">UInt</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">uintArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">UInt</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -521,7 +449,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L88-L94">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L80-L87">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -529,9 +457,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSaySSG11stringArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC11stringArrayACSaySSG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(stringArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySSG11stringArray_tKcfc">init(stringArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC11stringArrayACSaySSG_tcfc">init(stringArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -540,18 +468,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [String].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">stringArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">stringArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -575,7 +498,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L100-L106">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L92-L99">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -583,9 +506,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSaySdG11doubleArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC11doubleArrayACSaySdG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(doubleArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySdG11doubleArray_tKcfc">init(doubleArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC11doubleArrayACSaySdG_tcfc">init(doubleArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -594,18 +517,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [Double].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">doubleArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Double</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">doubleArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">Double</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -629,7 +547,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L112-L118">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L104-L111">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -637,9 +555,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSaySbG9boolArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC9boolArrayACSaySbG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(boolArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSaySbG9boolArray_tKcfc">init(boolArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC9boolArrayACSaySbG_tcfc">init(boolArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -648,18 +566,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [Bool].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">boolArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Bool</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">boolArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">Bool</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -683,7 +596,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L124-L130">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L116-L123">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -691,9 +604,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCACSayypG8anyArray_tKcfc"></a>
+                    <a name="/s:8FreSwift8FREArrayC8anyArrayACSayypG_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(anyArray:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCACSayypG8anyArray_tKcfc">init(anyArray:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC8anyArrayACSayypG_tcfc">init(anyArray:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -702,18 +615,13 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a FREArray with a [Any].</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">anyArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">anyArray</span> <span class="nv">array</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">])</span></code></pre>
 
                         </div>
                       </div>
@@ -737,7 +645,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L136-L142">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L128-L135">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -745,9 +653,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayC2atSvSgSu5index_tKF"></a>
-                    <a name="//apple_ref/swift/Method/at(index:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayC2atSvSgSu5index_tKF">at(index:)</a>
+                    <a name="/s:8FreSwift8FREArrayC4pushySuypSgd_tF"></a>
+                    <a name="//apple_ref/swift/Method/push(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC4pushySuypSgd_tF">push(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -755,19 +663,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>at: Returns FREObject at position index</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
+                        <p>push: Adds one or more elements to the end of an array and returns the new length of the array.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">at</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">push</span><span class="p">(</span><span class="n">_</span> <span class="nv">args</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?</span><span class="o">...</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UInt</span></code></pre>
 
                         </div>
                       </div>
@@ -778,24 +682,20 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>index</em>
+                                <em>args</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p></p>
+                                  <p>One or more values to append to the array.</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>FREObject?</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L149-L167">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L186-L188">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -803,9 +703,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayC3setySu5index_yp5valuetKF"></a>
-                    <a name="//apple_ref/swift/Method/set(index:value:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayC3setySu5index_yp5valuetKF">set(index:value:)</a>
+                    <a name="/s:8FreSwift8FREArrayC6insert_2atySvSg_SitF"></a>
+                    <a name="//apple_ref/swift/Method/insert(_:at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC6insert_2atySvSg_SitF">insert(_:at:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -813,19 +713,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>set: Sets FREObject at position index</p>
-<div class="aside aside-throws">
-    <p class="aside-title">Throws</p>
-    Can throw a <code><a href="../Classes/FreError.html">FreError</a></code> on fail
-
-</div>
+                        <p>insert: Insert a single element into the FREArray.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insert</span><span class="p">(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?,</span> <span class="n">at</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -836,24 +731,78 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>index</em>
+                                <em>freObject</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>index of item</p>
+                                  <p>FREObject</p>
                                 </div>
                               </td>
                             </tr>
                             <tr>
                               <td>
                                 <code>
-                                <em>value</em>
+                                <em>at</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>value to set</p>
+                                  <p>An Int that specifies the position in the Vector where the element is to be inserted.
+You can use a negative Int to specify a position relative to the end of the FREArray
+(for example, -1 for the last element of the FREArray)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L196-L198">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift8FREArrayC6remove2atSvSgSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/remove(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC6remove2atSvSgSi_tF">remove(at:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>remove: Remove a single element from the Vector. This method modifies the FREArray without making a copy.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="n">at</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>at</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An Int that specifies the index of the element in the FREArray that is to be deleted.
+/ You can use a negative Int to specify a position relative to the end of the FREArray
+/ (for example, -1 for the last element of the Vector).</p>
                                 </div>
                               </td>
                             </tr>
@@ -862,10 +811,10 @@
                       </div>
                       <div>
                         <h4>Return Value</h4>
-                        <p>FREObject?</p>
+                        <p>FREObject? The element that was removed from the original FREArray</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L211-L213">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L207-L209">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -883,7 +832,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>length: length of FREArray</p>
+                        <p>length: Length of FREArray</p>
 
                       </div>
                       <div class="declaration">
@@ -895,7 +844,37 @@
                         </div>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L216-L237">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L212-L225">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift8FREArrayC7isEmptySbvp"></a>
+                    <a name="//apple_ref/swift/Property/isEmpty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayC7isEmptySbvp">isEmpty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>isEmpty: A Boolean value indicating whether the FREArray is empty.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEmpty</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L228-L230">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -929,7 +908,7 @@
                         <p>[Any?]</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L241-L251">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L234-L241">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -941,9 +920,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:8FreSwift8FREArrayCSvSgSucip"></a>
+                    <a name="/s:8FreSwift8FREArrayCySvSgSucip"></a>
                     <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:8FreSwift8FREArrayCSvSgSucip">subscript(_:)</a>
+                    <a class="token" href="#/s:8FreSwift8FREArrayCySvSgSucip">subscript(_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -986,7 +965,7 @@
                         <p>FREObject?</p>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/2.5.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L259-L273">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FREArray.swift#L249-L258">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
@@ -996,7 +975,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-07-22)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-12-23)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

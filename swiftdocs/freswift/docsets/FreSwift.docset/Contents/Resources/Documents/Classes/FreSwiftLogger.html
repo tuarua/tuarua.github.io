@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Float Extension Reference</title>
+    <title>FreSwiftLogger Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Extension/Float" class="dashAnchor"></a>
-    <a title="Float Extension Reference"></a>
+    <a name="//apple_ref/swift/Class/FreSwiftLogger" class="dashAnchor"></a>
+    <a title="FreSwiftLogger Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">FreSwift Docs</a> (100% documented)</p>
@@ -23,7 +23,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">FreSwift Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Float Extension Reference
+        FreSwiftLogger Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -155,14 +155,15 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Float</h1>
+            <h1>FreSwiftLogger</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">Float</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">FreSwiftLogger</span></code></pre>
 
                 </div>
               </div>
-            
+            <p>FreSwiftLogger: Logger utility for logging any FRE errors which occur</p>
+
           </section>
           <section class="section task-group-section">
             <div class="task-group">
@@ -170,9 +171,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:Sf8FreSwiftEySfSgSvSgcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sf8FreSwiftEySfSgSvSgcfc">init(_:)</a>
+                    <a name="/s:8FreSwift0aB6LoggerC7contextAA0a7ContextB0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/context" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift0aB6LoggerC7contextAA0a7ContextB0CSgvp">context</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -180,16 +181,74 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a Float from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">myFloat</span> <span class="o">=</span> <span class="kt">Float</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
+                        <p>context: sets/gets the FreContextSwift</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">context</span><span class="p">:</span> <span class="kt"><a href="../Classes/FreContextSwift.html">FreContextSwift</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FreSwiftLogger.swift#L20">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift0aB6LoggerC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift0aB6LoggerC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>shared: returns the shared instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">FreSwiftLogger</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FreSwiftLogger.swift#L23">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8FreSwift0aB6LoggerC3log7message10stackTrace4type4line6column4fileySS_SSSgAA0A5ErrorC4CodeOS2iSStF"></a>
+                    <a name="//apple_ref/swift/Method/log(message:stackTrace:type:line:column:file:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8FreSwift0aB6LoggerC3log7message10stackTrace4type4line6column4fileySS_SSSgAA0A5ErrorC4CodeOS2iSStF">log(message:stackTrace:type:line:column:file:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>log: traces the message to the console</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">log</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">stackTrace</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Classes/FreError.html">FreError</a></span><span class="o">.</span><span class="kt">Code</span><span class="p">,</span> <span class="nv">line</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">column</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">file</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -200,56 +259,80 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>freObject</em>
+                                <em>message</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>FREObject which is of AS3 type Number</p>
+                                  <p>message to log</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>stackTrace</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>stack trace to log</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>type of error</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>line</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>line where error occurred</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>column</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>column where error occurred</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>file</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>file name where error occurred</p>
                                 </div>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                       </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Float?</p>
-                      </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L282-L291">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:Sf8FreSwiftE11toFREObjectSvSgyF"></a>
-                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:Sf8FreSwiftE11toFREObjectSvSgyF">toFREObject()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>let fre = myFloat.toFREObject()</p>
-<pre class="highlight swift"><code><span class="o">-</span> <span class="nv">returns</span><span class="p">:</span> <span class="kt">FREObject</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L299-L301">Show on GitHub</a>
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/3.0.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FreSwiftLogger.swift#L35-L42">Show on GitHub</a>
                       </div>
                     </section>
                   </div>

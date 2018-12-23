@@ -14,7 +14,7 @@
     <a title="NSColor Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FreSwift Docs</a> (98% documented)</p>
+        <p><a href="../index.html">FreSwift Docs</a> (100% documented)</p>
         <p class="header-right"><a href="https://github.com/tuarua/Swift-IOS-ANE"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Ftuarua%2Egithub%2Eio%2Fswiftdocs%2Ffreswift%2Fdocsets%2FFreSwift%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -52,6 +52,12 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/FreError/Code.html">– Code</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FreObjectSwift.html">FreObjectSwift</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FreSwiftLogger.html">FreSwiftLogger</a>
               </li>
             </ul>
           </li>
@@ -159,29 +165,8 @@
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/init(freObject:alpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">init(freObject:alpha:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>init: Initialise a NSColor from 2 FREObjects.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">clr</span> <span class="o">=</span> <span class="kt">NSColor</span><span class="p">(</span><span class="nv">freObject</span><span class="p">:</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nv">alpha</span><span class="p">:</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-</code></pre>
-
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/init(freObjectARGB:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">init(freObjectARGB:)</a>
+                    <a name="//apple_ref/swift/Method/init(_:hasAlpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">init(_:hasAlpha:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -190,7 +175,7 @@
                       <div class="pointer"></div>
                       <div class="abstract">
                         <p>init: Initialise a NSColor from a FREObject.</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">clr</span> <span class="o">=</span> <span class="kt">NSColor</span><span class="p">(</span><span class="nv">freObjectARGB</span><span class="p">:</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">clr</span> <span class="o">=</span> <span class="kt">NSColor</span><span class="p">(</span><span class="nv">freObject</span><span class="p">:</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </code></pre>
 
                       </div>
@@ -201,8 +186,8 @@
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/init(freObject:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">init(freObject:)</a>
+                    <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
+                    <a class="token" href="#/">toFREObject()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -210,10 +195,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>init: Initialise a NSColor from a FREObject.
-alpha is set as 1.0</p>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">clr</span> <span class="o">=</span> <span class="kt">NSColor</span><span class="p">(</span><span class="nv">freObject</span><span class="p">:</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre>
+                        <p>toFREObject: Converts a NSColor into a FREObject of AS3 type uint (ARGB).</p>
 
                       </div>
                     </section>
@@ -224,7 +206,7 @@ alpha is set as 1.0</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-07-22)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2018-12-23)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
