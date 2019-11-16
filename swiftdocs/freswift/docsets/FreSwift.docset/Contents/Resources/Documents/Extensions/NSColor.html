@@ -14,7 +14,7 @@
     <a title="NSColor Extension Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">FreSwift 4.0.0 Docs</a> (100% documented)</p>
+        <p><a href="../index.html">FreSwift 4.1.0 Docs</a> (100% documented)</p>
         <p class="header-right"><a href="https://github.com/tuarua/Swift-IOS-ANE"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Ftuarua%2Egithub%2Eio%2Fswiftdocs%2Ffreswift%2Fdocsets%2FFreSwift%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -156,6 +156,12 @@
         <section>
           <section class="section">
             <h1>NSColor</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">NSColor</span></code></pre>
+
+                </div>
+              </div>
             
           </section>
           <section class="section task-group-section">
@@ -164,9 +170,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/"></a>
+                    <a name="/s:So7NSColorC8FreSwiftE_8hasAlphaABSgSvSg_Sbtcfc"></a>
                     <a name="//apple_ref/swift/Method/init(_:hasAlpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">init(_:hasAlpha:)</a>
+                    <a class="token" href="#/s:So7NSColorC8FreSwiftE_8hasAlphaABSgSvSg_Sbtcfc">init(_:hasAlpha:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -179,15 +185,61 @@
 </code></pre>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">?(</span><span class="n">_</span> <span class="nv">freObject</span><span class="p">:</span> <span class="kt">FREObject</span><span class="p">?,</span> <span class="nv">hasAlpha</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">true</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>freObject</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>FREObject which is of AS3 type uint</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hasAlpha</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether the uint is in 32bit ARGB hex format eg. 0xFF00FF00</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSColor?</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/4.1.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L405-L418">Show on GitHub</a>
+                      </div>
                     </section>
                   </div>
                 </li>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/"></a>
+                    <a name="/s:So7NSColorC8FreSwiftE11toFREObjectSvSgyF"></a>
                     <a name="//apple_ref/swift/Method/toFREObject()" class="dashAnchor"></a>
-                    <a class="token" href="#/">toFREObject()</a>
+                    <a class="token" href="#/s:So7NSColorC8FreSwiftE11toFREObjectSvSgyF">toFREObject()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -198,6 +250,21 @@
                         <p>toFREObject: Converts a NSColor into a FREObject of AS3 type uint (ARGB).</p>
 
                       </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toFREObject</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">FREObject</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>FREObject</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/tuarua/Swift-IOS-ANE/tree/4.1.0/framework_src/native_library/FreSwiftExampleANE/FreSwift/FlashRuntimeExtensions.swift#L423-L430">Show on GitHub</a>
+                      </div>
                     </section>
                   </div>
                 </li>
@@ -206,8 +273,8 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2019-09-24)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2019 <a class="link" href="https://github.com/tuarua" target="_blank" rel="external">Tua Rua Ltd.</a>. All rights reserved. (Last updated: 2019-11-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
