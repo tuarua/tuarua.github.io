@@ -1,0 +1,3 @@
+Text for param in com.tuarua.iap:BillingClient/isSignatureValid is not valid.
+org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 84; The entity name must immediately follow the '&' in the entity reference.
+
