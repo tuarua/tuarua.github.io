@@ -1,0 +1,3 @@
+Text for description in com.tuarua.firebase.ml.vision.face:FaceDetectorOptions/contourMode is not valid.
+org.xml.sax.SAXParseException; lineNumber: 26; columnNumber: 8; The element type "p" must be terminated by the matching end-tag "</p>".
+
