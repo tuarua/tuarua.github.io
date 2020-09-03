@@ -89,6 +89,12 @@
   "com.onesignal.OneSignal": {
     "3.13.2": "http://127.0.0.1:8080/com.onesignal.OneSignal-3.13.2.ane?raw=true"
   },
+  "androidx.cardview.cardview": {
+    "1.0.0": "http://127.0.0.1:8080/androidx.cardview.cardview-1.0.0.ane?raw=true"
+  },
+  "androidx.browser.browser": {
+    "1.0.0": "http://127.0.0.1:8080/androidx.browser.browser-1.0.0.ane?raw=true"
+  },
   "com.google.firebase.firebase-perf": {
     "19.0.8": "http://127.0.0.1:8080/com.google.firebase.firebase-perf-19.0.8.ane?raw=true"
   },
