@@ -29,7 +29,7 @@
   "com.tuarua.firebase.CrashlyticsANE": {
     "0.14.0": "http://127.0.0.1:8080/CrashlyticsANE.ane?raw=true"
   },
-  "com.tuarua.google.GoogleSignInANE'": {
+  "com.tuarua.google.GoogleSignInANE": {
     "0.14.0": "http://127.0.0.1:8080/GoogleSignInANE.ane?raw=true"
   },
   "com.tuarua.OneSignalANE": {
