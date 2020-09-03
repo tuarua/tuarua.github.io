@@ -42,7 +42,7 @@
     "3.0.0": "http://127.0.0.1:8080/org.greenrobot.eventbus-3.0.0.ane?raw=true"
   },
   "com.google.code.gson.gson": {
-    "2.8.6.": "http://127.0.0.1:8080/com.google.code.gson.gson-2.8.6.ane?raw=true"
+    "2.8.6": "http://127.0.0.1:8080/com.google.code.gson.gson-2.8.6.ane?raw=true"
   },
   "com.squareup.okhttp3.okhttp": {
     "3.12.1": "http://127.0.0.1:8080/com.squareup.okhttp3.okhttp-3.12.1.ane?raw=true"
