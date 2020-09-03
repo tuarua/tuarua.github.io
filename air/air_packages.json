@@ -1,0 +1,101 @@
+{
+  "com.tuarua.firebase.FirebaseANE": {
+    "0.14.0": "http://127.0.0.1:8080/FirebaseANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.AnalyticsANE": {
+    "0.14.0": "http://127.0.0.1:8080/AnalyticsANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.AuthANE": {
+    "0.14.0": "http://127.0.0.1:8080/AuthANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.DynamicLinksANE": {
+    "0.14.0": "http://127.0.0.1:8080/DynamicLinksANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.FirestoreANE": {
+    "0.14.0": "http://127.0.0.1:8080/FirestoreANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.MessagingANE": {
+    "0.14.0": "http://127.0.0.1:8080/MessagingANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.PerformanceANE": {
+    "0.14.0": "http://127.0.0.1:8080/PerformanceANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.RemoteConfigANE": {
+    "0.14.0": "http://127.0.0.1:8080/RemoteConfigANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.StorageANE": {
+    "0.14.0": "http://127.0.0.1:8080/StorageANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.CrashlyticsANE": {
+    "0.14.0": "http://127.0.0.1:8080/CrashlyticsANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.GoogleSignInANE": {
+    "0.14.0": "http://127.0.0.1:8080/GoogleSignInANE.ane?raw=true"
+  },
+  "com.tuarua.firebase.OneSignalANE": {
+    "0.14.0": "http://127.0.0.1:8080/OneSignalANE.ane?raw=true"
+  },
+  "com.tuarua.frekotlin": {
+    "1.40.0": "http://127.0.0.1:8080/com.tuarua.frekotlin-1.40.0.ane?raw=true"
+  },
+  "org.greenrobot.eventbus": {
+    "3.0.0": "http://127.0.0.1:8080/org.greenrobot.eventbus-3.0.0.ane?raw=true"
+  },
+  "com.google.code.gson.gson": {
+    "2.8.6.": "http://127.0.0.1:8080/com.google.code.gson.gson-2.8.6.ane?raw=true"
+  },
+  "com.squareup.okhttp3.okhttp": {
+    "3.12.1": "http://127.0.0.1:8080/com.squareup.okhttp3.okhttp-3.12.1.ane?raw=true"
+  },
+  "com.google.guava.guava": {
+    "28.1-android": "http://127.0.0.1:8080/com.google.guava.guava-28.1-android.ane?raw=true"
+  },
+  "androidx.legacy.legacy-support-v4": {
+    "1.0.0": "http://127.0.0.1:8080/androidx.legacy.legacy-support-v4-1.0.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-components": {
+    "16.0.0": "http://127.0.0.1:8080/com.google.firebase.firebase-components-16.0.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-iid": {
+    "20.2.3": "http://127.0.0.1:8080/com.google.firebase.firebase-iid-20.2.3.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-measurement": {
+    "17.5.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-measurement-17.5.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-base": {
+    "17.1.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-base-17.1.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-analytics-ktx": {
+    "17.5.0": "http://127.0.0.1:8080/com.google.firebase.firebase-analytics-ktx-17.5.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-auth-ktx": {
+    "19.3.2": "http://127.0.0.1:8080/com.google.firebase.firebase-auth-ktx-19.3.2.ane?raw=true"
+  },
+  "com.google.firebase.firebase-crashlytics": {
+    "17.1.1": "http://127.0.0.1:8080/com.google.firebase.firebase-crashlytics-17.1.1.ane?raw=true"
+  },
+  "com.google.firebase.firebase-dynamic-links-ktx": {
+    "19.1.0": "http://127.0.0.1:8080/com.google.firebase.firebase-dynamic-links-ktx-19.1.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-firestore-ktx": {
+    "21.5.0": "http://127.0.0.1:8080/com.google.firebase.firebase-firestore-ktx-21.5.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-auth": {
+    "18.1.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-auth-18.1.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-messaging": {
+    "20.2.4": "http://127.0.0.1:8080/com.google.firebase.firebase-messaging-20.2.4.ane?raw=true"
+  },
+  "com.onesignal.OneSignal": {
+    "3.13.2": "http://127.0.0.1:8080/com.onesignal.OneSignal-3.13.2.ane?raw=true"
+  },
+  "com.google.firebase.firebase-perf": {
+    "19.0.8": "http://127.0.0.1:8080/com.google.firebase.firebase-perf-19.0.8.ane?raw=true"
+  },
+  "com.google.firebase.firebase-config-ktx": {
+    "19.2.0": "http://127.0.0.1:8080/com.google.firebase.firebase-config-ktx-19.2.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-storage-ktx": {
+    "19.1.1": "http://127.0.0.1:8080/com.google.firebase.firebase-storage-ktx-19.1.1.ane?raw=true"
+  }
+}
