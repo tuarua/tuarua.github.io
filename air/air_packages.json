@@ -103,5 +103,14 @@
   },
   "com.google.firebase.firebase-storage-ktx": {
     "19.1.1": "http://127.0.0.1:8080/com.google.firebase.firebase-storage-ktx-19.1.1.ane?raw=true"
+  },
+  "com.tuarua.firebase.FirebaseIosDependencies": {
+    "0.14.0": "http://127.0.0.1:8080/ios_dependencies.zip"
+  },
+  "com.tuarua.FreSwift": {
+    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.AIRSDK_additions": {
+    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/AIRSDK_additions.zip"
   }
 }
