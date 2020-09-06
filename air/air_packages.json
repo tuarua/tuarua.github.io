@@ -35,22 +35,22 @@
   "com.tuarua.OneSignalANE": {
     "0.14.0": "http://127.0.0.1:8080/OneSignalANE.ane?raw=true"
   },
-  "com.tuarua.VisionANE": {
+  "com.tuarua.firebase.VisionANE": {
     "0.14.0": "http://127.0.0.1:8080/VisionANE.ane?raw=true"
   },
-  "com.tuarua.VisionCloudTextANE": {
+  "com.tuarua.firebase.VisionCloudTextANE": {
     "0.14.0": "http://127.0.0.1:8080/VisionCloudTextANE.ane?raw=true"
   },
-  "com.tuarua.VisionCloudDocumentANE": {
+  "com.tuarua.firebase.VisionCloudDocumentANE": {
     "0.14.0": "http://127.0.0.1:8080/VisionCloudDocumentANE.ane?raw=true"
   },
-  "com.tuarua.VisionCloudLabelANE": {
+  "com.tuarua.firebase.VisionCloudLabelANE": {
     "0.14.0": "http://127.0.0.1:8080/VisionCloudLabelANE.ane?raw=true"
   },
-  "com.tuarua.VisionLandmarkANE": {
+  "com.tuarua.firebase.VisionLandmarkANE": {
     "0.14.0": "http://127.0.0.1:8080/VisionLandmarkANE.ane?raw=true"
   },
-  "com.tuarua.ModelInterpreterANE": {
+  "com.tuarua.firebase.ModelInterpreterANE": {
     "0.14.0": "http://127.0.0.1:8080/ModelInterpreterANE.ane?raw=true"
   },
   "com.tuarua.frekotlin": {
