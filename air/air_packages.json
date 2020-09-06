@@ -1,141 +1,141 @@
 {
   "com.tuarua.firebase.FirebaseANE": {
-    "0.14.0": "http://127.0.0.1:8080/FirebaseANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirebaseANE.ane?raw=true"
   },
   "com.tuarua.firebase.AnalyticsANE": {
-    "0.14.0": "http://127.0.0.1:8080/AnalyticsANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/AnalyticsANE.ane?raw=true"
   },
   "com.tuarua.firebase.AuthANE": {
-    "0.14.0": "http://127.0.0.1:8080/AuthANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/AuthANE.ane?raw=true"
   },
   "com.tuarua.firebase.DynamicLinksANE": {
-    "0.14.0": "http://127.0.0.1:8080/DynamicLinksANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/DynamicLinksANE.ane?raw=true"
   },
   "com.tuarua.firebase.FirestoreANE": {
-    "0.14.0": "http://127.0.0.1:8080/FirestoreANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirestoreANE.ane?raw=true"
   },
   "com.tuarua.firebase.MessagingANE": {
-    "0.14.0": "http://127.0.0.1:8080/MessagingANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/MessagingANE.ane?raw=true"
   },
   "com.tuarua.firebase.PerformanceANE": {
-    "0.14.0": "http://127.0.0.1:8080/PerformanceANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/PerformanceANE.ane?raw=true"
   },
   "com.tuarua.firebase.RemoteConfigANE": {
-    "0.14.0": "http://127.0.0.1:8080/RemoteConfigANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/RemoteConfigANE.ane?raw=true"
   },
   "com.tuarua.firebase.StorageANE": {
-    "0.14.0": "http://127.0.0.1:8080/StorageANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/StorageANE.ane?raw=true"
   },
   "com.tuarua.firebase.CrashlyticsANE": {
-    "0.14.0": "http://127.0.0.1:8080/CrashlyticsANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/CrashlyticsANE.ane?raw=true"
   },
   "com.tuarua.google.GoogleSignInANE": {
-    "0.14.0": "http://127.0.0.1:8080/GoogleSignInANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/GoogleSignInANE.ane?raw=true"
   },
   "com.tuarua.OneSignalANE": {
-    "0.14.0": "http://127.0.0.1:8080/OneSignalANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/OneSignalANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionANE": {
-    "0.14.0": "http://127.0.0.1:8080/VisionANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudTextANE": {
-    "0.14.0": "http://127.0.0.1:8080/VisionCloudTextANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudTextANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudDocumentANE": {
-    "0.14.0": "http://127.0.0.1:8080/VisionCloudDocumentANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudDocumentANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudLabelANE": {
-    "0.14.0": "http://127.0.0.1:8080/VisionCloudLabelANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudLabelANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionLandmarkANE": {
-    "0.14.0": "http://127.0.0.1:8080/VisionLandmarkANE.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionLandmarkANE.ane?raw=true"
   },
   "com.tuarua.firebase.ModelInterpreterANE": {
-    "0.14.0": "http://127.0.0.1:8080/ModelInterpreterANE.ane?raw=true"
-  },
-  "com.tuarua.frekotlin": {
-    "1.40.0": "http://127.0.0.1:8080/com.tuarua.frekotlin-1.40.0.ane?raw=true"
-  },
-  "org.greenrobot.eventbus": {
-    "3.0.0": "http://127.0.0.1:8080/org.greenrobot.eventbus-3.0.0.ane?raw=true"
-  },
-  "com.google.code.gson.gson": {
-    "2.8.6": "http://127.0.0.1:8080/com.google.code.gson.gson-2.8.6.ane?raw=true"
-  },
-  "com.squareup.okhttp3.okhttp": {
-    "3.12.1": "http://127.0.0.1:8080/com.squareup.okhttp3.okhttp-3.12.1.ane?raw=true"
-  },
-  "com.google.guava.guava": {
-    "28.1-android": "http://127.0.0.1:8080/com.google.guava.guava-28.1-android.ane?raw=true"
-  },
-  "androidx.legacy.legacy-support-v4": {
-    "1.0.0": "http://127.0.0.1:8080/androidx.legacy.legacy-support-v4-1.0.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-components": {
-    "16.0.0": "http://127.0.0.1:8080/com.google.firebase.firebase-components-16.0.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-iid": {
-    "20.2.3": "http://127.0.0.1:8080/com.google.firebase.firebase-iid-20.2.3.ane?raw=true"
-  },
-  "com.google.android.gms.play-services-measurement": {
-    "17.5.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-measurement-17.5.0.ane?raw=true"
-  },
-  "com.google.android.gms.play-services-base": {
-    "17.1.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-base-17.1.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-analytics-ktx": {
-    "17.5.0": "http://127.0.0.1:8080/com.google.firebase.firebase-analytics-ktx-17.5.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-auth-ktx": {
-    "19.3.2": "http://127.0.0.1:8080/com.google.firebase.firebase-auth-ktx-19.3.2.ane?raw=true"
-  },
-  "com.google.firebase.firebase-crashlytics": {
-    "17.1.1": "http://127.0.0.1:8080/com.google.firebase.firebase-crashlytics-17.1.1.ane?raw=true"
-  },
-  "com.google.firebase.firebase-dynamic-links-ktx": {
-    "19.1.0": "http://127.0.0.1:8080/com.google.firebase.firebase-dynamic-links-ktx-19.1.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-firestore-ktx": {
-    "21.5.0": "http://127.0.0.1:8080/com.google.firebase.firebase-firestore-ktx-21.5.0.ane?raw=true"
-  },
-  "com.google.android.gms.play-services-auth": {
-    "18.1.0": "http://127.0.0.1:8080/com.google.android.gms.play-services-auth-18.1.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-messaging": {
-    "20.2.4": "http://127.0.0.1:8080/com.google.firebase.firebase-messaging-20.2.4.ane?raw=true"
-  },
-  "com.onesignal.OneSignal": {
-    "3.13.2": "http://127.0.0.1:8080/com.onesignal.OneSignal-3.13.2.ane?raw=true"
-  },
-  "androidx.cardview.cardview": {
-    "1.0.0": "http://127.0.0.1:8080/androidx.cardview.cardview-1.0.0.ane?raw=true"
-  },
-  "androidx.browser.browser": {
-    "1.0.0": "http://127.0.0.1:8080/androidx.browser.browser-1.0.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-perf": {
-    "19.0.8": "http://127.0.0.1:8080/com.google.firebase.firebase-perf-19.0.8.ane?raw=true"
-  },
-  "com.google.firebase.firebase-config-ktx": {
-    "19.2.0": "http://127.0.0.1:8080/com.google.firebase.firebase-config-ktx-19.2.0.ane?raw=true"
-  },
-  "com.google.firebase.firebase-storage-ktx": {
-    "19.1.1": "http://127.0.0.1:8080/com.google.firebase.firebase-storage-ktx-19.1.1.ane?raw=true"
-  },
-  "com.google.firebase.firebase-ml-model-interpreter": {
-    "22.0.3": "http://127.0.0.1:8080/com.google.firebase.firebase-ml-model-interpreter-22.0.3.ane?raw=true"
-  },
-  "com.google.firebase.firebase-ml-vision": {
-    "24.0.3": "http://127.0.0.1:8080/com.google.firebase.firebase-ml-vision-24.0.3.ane?raw=true"
-  },
-  "org.jetbrains.kotlinx.kotlinx-coroutines-android": {
-    "1.3.9": "http://127.0.0.1:8080/org.jetbrains.kotlinx.kotlinx-coroutines-android-1.3.9.ane?raw=true"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/ModelInterpreterANE.ane?raw=true"
   },
   "com.tuarua.firebase.FirebaseIosDependencies": {
-    "0.14.0": "http://127.0.0.1:8080/ios_dependencies.zip"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/ios_dependencies.zip"
   },
   "com.tuarua.firebase.FirebaseVisionAssets": {
-    "0.14.0": "http://127.0.0.1:8080/assets.zip"
+    "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/assets.zip"
+  },
+  "com.tuarua.frekotlin": {
+    "1.40.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/kotlin/com.tuarua.frekotlin-1.40.0.ane?raw=true"
+  },
+  "org.jetbrains.kotlinx.kotlinx-coroutines-android": {
+    "1.3.9": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/kotlin/org.jetbrains.kotlinx.kotlinx-coroutines-android-1.3.9.ane?raw=true"
+  },
+  "org.greenrobot.eventbus": {
+    "3.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/misc/org.greenrobot.eventbus-3.0.0.ane?raw=true"
+  },
+  "com.google.code.gson.gson": {
+    "2.8.6": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/misc/com.google.code.gson.gson-2.8.6.ane?raw=true"
+  },
+  "com.squareup.okhttp3.okhttp": {
+    "3.12.1": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/misc/com.squareup.okhttp3.okhttp-3.12.1.ane?raw=true"
+  },
+  "com.google.guava.guava": {
+    "28.1-android": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/misc/com.google.guava.guava-28.1-android.ane?raw=true"
+  },
+  "androidx.legacy.legacy-support-v4": {
+    "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.legacy.legacy-support-v4-1.0.0.ane?raw=true"
+  },
+  "androidx.cardview.cardview": {
+    "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.cardview.cardview-1.0.0.ane?raw=true"
+  },
+  "androidx.browser.browser": {
+    "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.browser.browser-1.0.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-measurement": {
+    "17.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-measurement-17.5.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-base": {
+    "17.1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-base-17.1.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-auth": {
+    "18.1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-auth-18.1.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-components": {
+    "16.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-components-16.0.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-iid": {
+    "20.2.3": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-iid-20.2.3.ane?raw=true"
+  },
+  "com.google.firebase.firebase-analytics-ktx": {
+    "17.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-analytics-ktx-17.5.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-auth-ktx": {
+    "19.3.2": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-auth-ktx-19.3.2.ane?raw=true"
+  },
+  "com.google.firebase.firebase-crashlytics": {
+    "17.1.1": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-crashlytics-17.1.1.ane?raw=true"
+  },
+  "com.google.firebase.firebase-dynamic-links-ktx": {
+    "19.1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-dynamic-links-ktx-19.1.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-firestore-ktx": {
+    "21.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-firestore-ktx-21.5.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-messaging": {
+    "20.2.4": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-messaging-20.2.4.ane?raw=true"
+  },
+  "com.onesignal.OneSignal": {
+    "3.13.2": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.onesignal.OneSignal-3.13.2.ane?raw=true"
+  },
+  "com.google.firebase.firebase-perf": {
+    "19.0.8": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-perf-19.0.8.ane?raw=true"
+  },
+  "com.google.firebase.firebase-config-ktx": {
+    "19.2.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-config-ktx-19.2.0.ane?raw=true"
+  },
+  "com.google.firebase.firebase-storage-ktx": {
+    "19.1.1": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-storage-ktx-19.1.1.ane?raw=true"
+  },
+  "com.google.firebase.firebase-ml-model-interpreter": {
+    "22.0.3": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-ml-model-interpreter-22.0.3.ane?raw=true"
+  },
+  "com.google.firebase.firebase-ml-vision": {
+    "24.0.3": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-ml-vision-24.0.3.ane?raw=true"
   },
   "com.tuarua.FreSwift": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip"
