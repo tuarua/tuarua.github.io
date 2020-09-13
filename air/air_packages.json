@@ -92,6 +92,12 @@
   "androidx.browser.browser": {
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.browser.browser-1.0.0.ane?raw=true"
   },
+  "androidx.appcompat.appcompat": {
+    "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.appcompat.appcompat-1.0.0.ane?raw=true"
+  },
+  "com.google.android.material.material": {
+    "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/com.google.android.material.material-1.0.0.ane?raw=true"
+  },
   "com.google.android.gms.play-services-measurement": {
     "17.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-measurement-17.5.0.ane?raw=true"
   },
@@ -106,6 +112,18 @@
   },
   "com.google.android.ump.user-messaging-platform": {
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.ump.user-messaging-platform-1.0.0.ane?raw=true"
+  },
+  "com.android.billingclient.billing-ktx": {
+    "3.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.android.billingclient.billing-ktx-3.0.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-maps": {
+    "17.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-maps-17.0.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-location": {
+    "17.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-location-17.0.0.ane?raw=true"
+  },
+  "com.google.android.gms.play-services-games": {
+    "19.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-games-19.0.0.ane?raw=true"
   },
   "com.google.firebase.firebase-components": {
     "16.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-components-16.0.0.ane?raw=true"
@@ -154,5 +172,12 @@
   },
   "com.tuarua.AIRSDK_additions": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/AIRSDK_additions.zip"
+  },
+  "com.facebook.android.facebook-android-sdk": {
+    "5.13.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/facebook/com.facebook.android.facebook-android-sdk-5.13.0.ane?raw=true"
+  },
+  "com.parse.bolts.bolts-android": {
+    "1.4.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/facebook/com.parse.bolts.bolts-android-1.4.0.ane?raw=true"
   }
 }
+
