@@ -170,6 +170,15 @@
   "com.tuarua.FreSwift": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip"
   },
+  "com.tuarua.FreSharp": {
+    "2.4.0": "https://github.com/tuarua/FreSharp/releases/download/2.4.0/FreSharp.ane?raw=true"
+  },
+  "com.tuarua.iOS.FreSwift": {
+    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.macOS.FreSwift": {
+    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/FreSwift.ane?raw=true"
+  },
   "com.tuarua.AIRSDK_additions": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/AIRSDK_additions.zip"
   },
@@ -178,6 +187,36 @@
   },
   "com.parse.bolts.bolts-android": {
     "1.4.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/facebook/com.parse.bolts.bolts-android-1.4.0.ane?raw=true"
+  },
+  "com.tuarua.InAppPurchaseANE": {
+    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/InAppPurchaseANE.ane?raw=true"
+  },
+  "com.tuarua.InAppPurchaseANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.FacebookANE": {
+    "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/FacebookANE.ane?raw=true"
+  },
+  "com.tuarua.FacebookANE.IosDependencies": {
+    "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/ios_dependencies.zip"
+  },
+  "com.tuarua.WebViewANE": {
+    "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/$AneVersion/WebViewANE.ane?raw=true"
+  },
+  "com.tuarua.WebViewANE.IosDependencies": {
+    "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/2.12.0/ios_dependencies.zip"
+  },
+  "com.tuarua.GoogleMapsANE": {
+    "2.8.0": "https://github.com/tuarua/Google-Maps-ANE/releases/download/2.8.0/GoogleMapsANE.ane?raw=true"
+  },
+  "com.tuarua.GoogleMapsANE.IosDependencies": {
+    "2.8.0": "https://github.com/tuarua/Google-Maps-ANE/releases/download/2.8.0/ios_dependencies.zip"
+  },
+  "com.tuarua.DeviceAuthANE": {
+    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/DeviceAuthANE.ane?raw=true"
+  },
+  "com.tuarua.DeviceAuthANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/ios_dependencies.zip"
   }
 }
 
