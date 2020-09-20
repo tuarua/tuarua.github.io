@@ -217,6 +217,12 @@
   },
   "com.tuarua.DeviceAuthANE.IosDependencies": {
     "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.BatteryANE": {
+    "1.5.0": "https://github.com/tuarua/attery-ANE/releases/download/1.5.0/BatteryANE.ane?raw=true"
+  },
+  "com.tuarua.BatteryANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/attery-ANE/releases/download/1.5.0/ios_dependencies.zip"
   }
 }
 
