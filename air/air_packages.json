@@ -229,6 +229,26 @@
   },
   "com.tuarua.QuickActionsANE.IosDependencies": {
     "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/ios_dependencies.zip"
+  },
+  "com.tuarua.ShareANE": {
+    "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ShareANE.ane?raw=true"
+  },
+  "com.tuarua.ShareANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.VibrationANE": {
+    "1.5.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.5.0/VibrationANE.ane?raw=true"
+  },
+  "com.tuarua.VibrationANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.DeviceInfoANE": {
+    "1.5.0": "https://github.com/tuarua/DeviceInfo-ANE/releases/download/1.5.0/DeviceInfoANE.ane?raw=true"
+  },
+  "com.tuarua.DeviceInfoANE.IosDependencies": {
+    "1.5.0": "https://github.com/tuarua/DeviceInfo-ANE/releases/download/1.5.0/ios_dependencies.zip"
   }
 }
+
+
 
