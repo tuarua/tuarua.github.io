@@ -261,5 +261,17 @@
   },
   "com.tuarua.DesktopToastANE": {
     "2.0.0": "https://github.com/tuarua/DesktopToastANE/releases/download/2.0.0/DesktopToastANE.ane?raw=true"
+  },
+  "com.tuarua.ARANE": {
+    "1.2.0": "https://github.com/tuarua/AR-ANE/releases/download/1.2.0/ARANE.ane?raw=true"
+  },
+  "com.tuarua.ARANE.IosDependencies": {
+    "1.2.0": "https://github.com/tuarua/AR-ANE/releases/download/1.2.0/ios_dependencies.zip"
+  },
+  "com.tuarua.ARANE.ReferenceImages": {
+    "1.2.0": "https://github.com/tuarua/AR-ANE/releases/download/1.2.0/reference_images.zip"
+  },
+  "com.tuarua.ARANE.Assets": {
+    "1.2.0": "https://github.com/tuarua/AR-ANE/releases/download/1.2.0/assets.zip"
   }
 }
