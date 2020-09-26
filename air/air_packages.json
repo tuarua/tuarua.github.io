@@ -169,8 +169,8 @@
     "24.0.3": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-ml-vision-24.0.3.ane?raw=true"
   },
   "com.tuarua.FreSwift": {
-    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip",
-    "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/ios_dependencies.zip"
+    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/FreSwift.ane?raw=true",
+    "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/FreSwift.ane?raw=true"
   },
   "com.tuarua.FreSharp": {
     "2.4.0": "https://github.com/tuarua/FreSharp/releases/download/2.4.0/FreSharp.ane?raw=true"
@@ -182,10 +182,6 @@
   "com.tuarua.tvOS.FreSwift": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/tvos_dependencies.zip",
     "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/tvos_dependencies.zip"
-  },
-  "com.tuarua.macOS.FreSwift": {
-    "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/FreSwift.ane?raw=true",
-    "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/FreSwift.ane?raw=true"
   },
   "com.tuarua.AIRSDK_additions": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/AIRSDK_additions.zip",
