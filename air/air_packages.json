@@ -275,12 +275,12 @@
     "1.2.0": "https://github.com/tuarua/AR-ANE/releases/download/1.2.0/assets.zip"
   },
   "com.tuarua.AppleSignInANE": {
-    "1.5.0": "https://github.com/tuarua/https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/AppleSignInANE.ane?raw=true"
+    "1.5.0": "https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/AppleSignInANE.ane?raw=true"
   },
   "com.tuarua.AppleSignInANE.IosDependencies": {
-    "1.5.0": "https://github.com/tuarua/https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/ios_dependencies.zip"
+    "1.5.0": "https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/ios_dependencies.zip"
   },
   "com.tuarua.AppleSignInANE.TvosDependencies": {
-    "1.5.0": "https://github.com/tuarua/https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/tvos_dependencies.zip"
+    "1.5.0": "https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/tvos_dependencies.zip"
   }
 }
