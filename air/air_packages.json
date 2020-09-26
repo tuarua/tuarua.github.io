@@ -252,8 +252,11 @@
   },
   "com.tuarua.DeviceInfoANE.IosDependencies": {
     "1.5.0": "https://github.com/tuarua/DeviceInfo-ANE/releases/download/1.5.0/ios_dependencies.zip"
+  },
+  "com.tuarua.DarkModeANE": {
+    "1.3.0": "https://github.com/tuarua/DarkMode-ANE/releases/download/1.3.0/DarkModeANE.ane?raw=true"
+  },
+  "com.tuarua.TaskbarProgressANE": {
+    "2.3.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.3.0/TaskbarProgressANE.ane?raw=true"
   }
 }
-
-
-
