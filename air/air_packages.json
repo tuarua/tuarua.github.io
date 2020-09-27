@@ -288,5 +288,11 @@
   },
   "com.tuarua.ZipANE.IosDependencies": {
     "1.7.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.7.0/ios_dependencies.zip"
+  },
+  "com.tuarua.SpotlightANE": {
+    "1.4.0": "https://github.com/tuarua/Spotlight-ANE/releases/download/1.4.0/SpotlightANE.ane?raw=true"
+  },
+  "com.tuarua.SpotlightANE.IosDependencies": {
+    "1.4.0": "https://github.com/tuarua/Spotlight-ANE/releases/download/1.4.0/ios_dependencies.zip"
   }
 }
