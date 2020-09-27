@@ -282,5 +282,11 @@
   },
   "com.tuarua.AppleSignInANE.TvosDependencies": {
     "1.5.0": "https://github.com/tuarua/Apple-Signin-ANE/releases/download/1.5.0/tvos_dependencies.zip"
+  },
+  "com.tuarua.ZipANE": {
+    "1.7.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.7.0/ZipANE.ane?raw=true"
+  },
+  "com.tuarua.ZipANE.IosDependencies": {
+    "1.7.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.7.0/ios_dependencies.zip"
   }
 }
