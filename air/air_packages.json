@@ -173,7 +173,8 @@
     "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/FreSwift.ane?raw=true"
   },
   "com.tuarua.FreSharp": {
-    "2.4.0": "https://github.com/tuarua/FreSharp/releases/download/2.4.0/FreSharp.ane?raw=true"
+    "2.4.0": "https://github.com/tuarua/FreSharp/releases/download/2.4.0/FreSharp.ane?raw=true",
+    "2.5.0": "https://github.com/tuarua/FreSharp/releases/download/2.5.0/FreSharp.ane?raw=true"
   },
   "com.tuarua.iOS.FreSwift": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/ios_dependencies.zip",
@@ -206,7 +207,7 @@
     "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/ios_dependencies.zip"
   },
   "com.tuarua.WebViewANE": {
-    "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/$AneVersion/WebViewANE.ane?raw=true"
+    "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/2.12.0/WebViewANE.ane?raw=true"
   },
   "com.tuarua.WebViewANE.IosDependencies": {
     "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/2.12.0/ios_dependencies.zip"
