@@ -1,9 +1,11 @@
 {
   "com.tuarua.AdMobANE": {
-    "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/AdMobANE.ane?raw=true"
+    "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/AdMobANE.ane?raw=true",
+    "2.9.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.9.0/AdMobANE.ane?raw=true"
   },
   "com.tuarua.AdMobANE.IosDependencies": {
-    "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/ios_dependencies.zip?raw=true"
+    "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/ios_dependencies.zip?raw=true",
+    "2.9.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.9.0/ios_dependencies.zip?raw=true"
   },
   "com.tuarua.firebase.FirebaseANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirebaseANE.ane?raw=true"
