@@ -221,10 +221,12 @@
     "2.8.0": "https://github.com/tuarua/Google-Maps-ANE/releases/download/2.8.0/ios_dependencies.zip"
   },
   "com.tuarua.DeviceAuthANE": {
-    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/DeviceAuthANE.ane?raw=true"
+    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/DeviceAuthANE.ane?raw=true",
+    "1.6.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.6.0/DeviceAuthANE.ane?raw=true"
   },
   "com.tuarua.DeviceAuthANE.IosDependencies": {
-    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/ios_dependencies.zip"
+    "1.5.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.5.0/ios_dependencies.zip",
+    "1.6.0": "https://github.com/tuarua/DeviceAuth-ANE/releases/download/1.6.0/ios_dependencies.zip"
   },
   "com.tuarua.BatteryANE": {
     "1.5.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.5.0/BatteryANE.ane?raw=true"
