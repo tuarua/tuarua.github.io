@@ -263,10 +263,12 @@
     "1.6.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.6.0/ios_dependencies.zip"
   },
   "com.tuarua.QuickActionsANE": {
-    "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/QuickActionsANE.ane?raw=true"
+    "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/QuickActionsANE.ane?raw=true",
+    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/QuickActionsANE.ane?raw=true"
   },
   "com.tuarua.QuickActionsANE.IosDependencies": {
-    "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/ios_dependencies.zip"
+    "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/ios_dependencies.zip",
+    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/ios_dependencies.zip"
   },
   "com.tuarua.ShareANE": {
     "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ShareANE.ane?raw=true",
