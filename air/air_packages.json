@@ -217,10 +217,12 @@
     "1.4.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/facebook/com.parse.bolts.bolts-android-1.4.0.ane?raw=true"
   },
   "com.tuarua.InAppPurchaseANE": {
-    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/InAppPurchaseANE.ane?raw=true"
+    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/InAppPurchaseANE.ane?raw=true",
+    "1.6.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.6.0/InAppPurchaseANE.ane?raw=true"
   },
   "com.tuarua.InAppPurchaseANE.IosDependencies": {
-    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/ios_dependencies.zip"
+    "1.5.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.5.0/ios_dependencies.zip",
+    "1.6.0": "https://github.com/tuarua/InAppPurchases-ANE/releases/download/1.6.0/ios_dependencies.zip"
   },
   "com.tuarua.FacebookANE": {
     "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/FacebookANE.ane?raw=true",
