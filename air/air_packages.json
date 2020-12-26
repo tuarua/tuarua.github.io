@@ -345,11 +345,13 @@
   },
   "com.tuarua.ZipANE": {
     "1.7.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.7.0/ZipANE.ane?raw=true",
-    "1.8.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.8.0/ZipANE.ane?raw=true"
+    "1.8.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.8.0/ZipANE.ane?raw=true",
+    "1.9.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.9.0/ZipANE.ane?raw=true"
   },
   "com.tuarua.ZipANE.IosDependencies": {
     "1.7.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.7.0/ios_dependencies.zip",
-    "1.8.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.8.0/ios_dependencies.zip"
+    "1.8.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.8.0/ios_dependencies.zip",
+    "1.9.0": "https://github.com/tuarua/Zip-ANE/releases/download/1.9.0/ios_dependencies.zip"
   },
   "com.tuarua.SpotlightANE": {
     "1.4.0": "https://github.com/tuarua/Spotlight-ANE/releases/download/1.4.0/SpotlightANE.ane?raw=true",
