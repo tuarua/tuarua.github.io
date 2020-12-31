@@ -303,11 +303,13 @@
   },
   "com.tuarua.BatteryANE": {
     "1.5.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.5.0/BatteryANE.ane?raw=true",
-    "1.6.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.6.0/BatteryANE.ane?raw=true"
+    "1.6.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.6.0/BatteryANE.ane?raw=true",
+    "1.7.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.7.0/BatteryANE.ane?raw=true"
   },
   "com.tuarua.BatteryANE.IosDependencies": {
     "1.5.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.5.0/ios_dependencies.zip",
-    "1.6.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.6.0/ios_dependencies.zip"
+    "1.6.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.6.0/ios_dependencies.zip",
+    "1.7.0": "https://github.com/tuarua/Battery-ANE/releases/download/1.7.0/ios_dependencies.zip"
   },
   "com.tuarua.QuickActionsANE": {
     "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/QuickActionsANE.ane?raw=true",
@@ -327,11 +329,13 @@
   },
   "com.tuarua.VibrationANE": {
     "1.5.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.5.0/VibrationANE.ane?raw=true",
-    "1.6.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.6.0/VibrationANE.ane?raw=true"
+    "1.6.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.6.0/VibrationANE.ane?raw=true",
+    "1.7.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.7.0/VibrationANE.ane?raw=true"
   },
   "com.tuarua.VibrationANE.IosDependencies": {
     "1.5.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.5.0/ios_dependencies.zip",
-    "1.6.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.6.0/ios_dependencies.zip"
+    "1.6.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.6.0/ios_dependencies.zip",
+    "1.7.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.7.0/ios_dependencies.zip"
   },
   "com.tuarua.DeviceInfoANE": {
     "1.5.0": "https://github.com/tuarua/DeviceInfo-ANE/releases/download/1.5.0/DeviceInfoANE.ane?raw=true",
