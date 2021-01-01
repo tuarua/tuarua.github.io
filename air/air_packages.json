@@ -331,11 +331,13 @@
   },
   "com.tuarua.ShareANE": {
     "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ShareANE.ane?raw=true",
-    "1.6.0": "https://github.com/tuarua/Share-ANE/releases/download/1.6.0/ShareANE.ane?raw=true"
+    "1.6.0": "https://github.com/tuarua/Share-ANE/releases/download/1.6.0/ShareANE.ane?raw=true",
+    "1.7.0": "https://github.com/tuarua/Share-ANE/releases/download/1.7.0/ShareANE.ane?raw=true"
   },
   "com.tuarua.ShareANE.IosDependencies": {
     "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ios_dependencies.zip",
-    "1.6.0": "https://github.com/tuarua/Share-ANE/releases/download/1.6.0/ios_dependencies.zip"
+    "1.6.0": "https://github.com/tuarua/Share-ANE/releases/download/1.6.0/ios_dependencies.zip",
+    "1.7.0": "https://github.com/tuarua/Share-ANE/releases/download/1.7.0/ios_dependencies.zip"
   },
   "com.tuarua.VibrationANE": {
     "1.5.0": "https://github.com/tuarua/Vibration-ANE/releases/download/1.5.0/VibrationANE.ane?raw=true",
