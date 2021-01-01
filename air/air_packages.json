@@ -163,7 +163,8 @@
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.ump.user-messaging-platform-1.0.0.ane?raw=true"
   },
   "com.android.billingclient.billing-ktx": {
-    "3.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.android.billingclient.billing-ktx-3.0.0.ane?raw=true"
+    "3.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.android.billingclient.billing-ktx-3.0.0.ane?raw=true",
+    "3.0.2": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.android.billingclient.billing-ktx-3.0.2.ane?raw=true"
   },
   "com.google.android.gms.play-services-maps": {
     "17.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-maps-17.0.0.ane?raw=true"
@@ -173,6 +174,9 @@
   },
   "com.google.android.gms.play-services-games": {
     "19.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-games-19.0.0.ane?raw=true"
+  },
+  "com.android.installreferrer.installreferrer": {
+    "1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.android.installreferrer.installreferrer-1.0.ane?raw=true"
   },
   "com.google.firebase.firebase-components": {
     "16.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/firebase/com.google.firebase.firebase-components-16.0.0.ane?raw=true",
@@ -317,11 +321,13 @@
   },
   "com.tuarua.QuickActionsANE": {
     "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/QuickActionsANE.ane?raw=true",
-    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/QuickActionsANE.ane?raw=true"
+    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/QuickActionsANE.ane?raw=true",
+    "1.8.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.8.0/QuickActionsANE.ane?raw=true"
   },
   "com.tuarua.QuickActionsANE.IosDependencies": {
     "1.6.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.6.0/ios_dependencies.zip",
-    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/ios_dependencies.zip"
+    "1.7.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.7.0/ios_dependencies.zip",
+    "1.8.0": "https://github.com/tuarua/QuickActions-ANE/releases/download/1.8.0/ios_dependencies.zip"
   },
   "com.tuarua.ShareANE": {
     "1.5.0": "https://github.com/tuarua/Share-ANE/releases/download/1.5.0/ShareANE.ane?raw=true",
