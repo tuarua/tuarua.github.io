@@ -276,11 +276,13 @@
   },
   "com.tuarua.FacebookANE": {
     "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/FacebookANE.ane?raw=true",
-    "1.5.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.5.0/FacebookANE.ane?raw=true"
+    "1.5.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.5.0/FacebookANE.ane?raw=true",
+    "1.6.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.6.0/FacebookANE.ane?raw=true"
   },
   "com.tuarua.FacebookANE.IosDependencies": {
     "1.4.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.4.0/ios_dependencies.zip",
-    "1.5.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.5.0/ios_dependencies.zip"
+    "1.5.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.5.0/ios_dependencies.zip",
+    "1.6.0": "https://github.com/tuarua/Facebook-ANE/releases/download/1.6.0/ios_dependencies.zip"
   },
   "com.tuarua.WebViewANE": {
     "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/2.12.0/WebViewANE.ane?raw=true",
