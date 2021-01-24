@@ -12,102 +12,122 @@
   "com.tuarua.firebase.FirebaseANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirebaseANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/FirebaseANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/FirebaseANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/FirebaseANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/FirebaseANE.ane?raw=true"
   },
   "com.tuarua.firebase.AnalyticsANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/AnalyticsANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/AnalyticsANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/AnalyticsANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/AnalyticsANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/AnalyticsANE.ane?raw=true"
   },
   "com.tuarua.firebase.AuthANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/AuthANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/AuthANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/AuthANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/AuthANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/AuthANE.ane?raw=true"
   },
   "com.tuarua.firebase.DynamicLinksANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/DynamicLinksANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/DynamicLinksANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/DynamicLinksANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/DynamicLinksANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/DynamicLinksANE.ane?raw=true"
   },
   "com.tuarua.firebase.FirestoreANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirestoreANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/FirestoreANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/FirestoreANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/FirestoreANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/FirestoreANE.ane?raw=true"
   },
   "com.tuarua.firebase.MessagingANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/MessagingANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/MessagingANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/MessagingANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/MessagingANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/MessagingANE.ane?raw=true"
   },
   "com.tuarua.firebase.PerformanceANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/PerformanceANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/PerformanceANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/PerformanceANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/PerformanceANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/PerformanceANE.ane?raw=true"
   },
   "com.tuarua.firebase.RemoteConfigANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/RemoteConfigANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/RemoteConfigANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/RemoteConfigANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/RemoteConfigANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/RemoteConfigANE.ane?raw=true"
   },
   "com.tuarua.firebase.StorageANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/StorageANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/StorageANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/StorageANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/StorageANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/StorageANE.ane?raw=true"
   },
   "com.tuarua.firebase.CrashlyticsANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/CrashlyticsANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/CrashlyticsANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/CrashlyticsANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/CrashlyticsANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/CrashlyticsANE.ane?raw=true"
   },
   "com.tuarua.google.GoogleSignInANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/GoogleSignInANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/GoogleSignInANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/GoogleSignInANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/GoogleSignInANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/GoogleSignInANE.ane?raw=true"
   },
   "com.tuarua.OneSignalANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/OneSignalANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/OneSignalANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/OneSignalANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/OneSignalANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/OneSignalANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/VisionANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/VisionANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudTextANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudTextANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/VisionCloudTextANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudTextANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudTextANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/VisionCloudTextANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudDocumentANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudDocumentANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/VisionCloudDocumentANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudDocumentANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudDocumentANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/VisionCloudDocumentANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionCloudLabelANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionCloudLabelANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/VisionCloudLabelANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudLabelANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionCloudLabelANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/VisionCloudLabelANE.ane?raw=true"
   },
   "com.tuarua.firebase.VisionLandmarkANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/VisionLandmarkANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/VisionLandmarkANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionLandmarkANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/VisionLandmarkANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/VisionLandmarkANE.ane?raw=true"
   },
   "com.tuarua.firebase.ModelInterpreterANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/ModelInterpreterANE.ane?raw=true",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/ModelInterpreterANE.ane?raw=true",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/ModelInterpreterANE.ane?raw=true"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/ModelInterpreterANE.ane?raw=true",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/ModelInterpreterANE.ane?raw=true"
   },
   "com.tuarua.firebase.FirebaseIosDependencies": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/ios_dependencies.zip",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/ios_dependencies.zip",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/ios_dependencies.zip"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/ios_dependencies.zip",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/ios_dependencies.zip"
   },
   "com.tuarua.firebase.FirebaseVisionAssets": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/assets.zip",
     "0.15.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.15.0/assets.zip",
-    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/assets.zip"
+    "0.16.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.16.0/assets.zip",
+    "0.17.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.17.0/assets.zip"
   },
   "com.tuarua.frekotlin": {
     "1.40.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/kotlin/com.tuarua.frekotlin-1.40.0.ane?raw=true",
