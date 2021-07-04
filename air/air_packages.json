@@ -2,12 +2,14 @@
   "com.tuarua.AdMobANE": {
     "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/AdMobANE.ane?raw=true",
     "2.9.0": "https://*github.com/tuarua/AdMob-ANE/releases/download/2.9.0/AdMobANE.ane?raw=true",
-    "3.0.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.0.0/AdMobANE.ane?raw=true"
+    "3.0.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.0.0/AdMobANE.ane?raw=true",
+    "3.1.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.1.0/AdMobANE.ane?raw=true"
   },
   "com.tuarua.AdMobANE.IosDependencies": {
     "2.8.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.8.0/ios_dependencies.zip?raw=true",
     "2.9.0": "https://github.com/tuarua/AdMob-ANE/releases/download/2.9.0/ios_dependencies.zip?raw=true",
-    "3.0.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.0.0/ios_dependencies.zip?raw=true"
+    "3.0.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.0.0/ios_dependencies.zip?raw=true",
+    "3.1.0": "https://github.com/tuarua/AdMob-ANE/releases/download/3.1.0/ios_dependencies.zip?raw=true"
   },
   "com.tuarua.firebase.FirebaseANE": {
     "0.14.0": "https://github.com/tuarua/Firebase-ANE/releases/download/0.14.0/FirebaseANE.ane?raw=true",
@@ -222,6 +224,15 @@
   "androidx.appcompat.appcompat": {
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.appcompat.appcompat-1.0.0.ane?raw=true"
   },
+  "androidx.room.room-runtime": {
+    "2.3.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.room.room-runtime-2.3.0.ane?raw=true"
+  },
+  "androidx.work.work-runtime": {
+    "2.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.work.work-runtime-2.5.0.ane?raw=true"
+  },
+  "androidx.sqlite.sqlite-framework": {
+    "2.1.0": "hhttps://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/androidx.sqlite.sqlite-framework-2.1.0.ane?raw=true"
+  },
   "com.google.android.material.material": {
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/support/com.google.android.material.material-1.0.0.ane?raw=true"
   },
@@ -232,14 +243,16 @@
   },
   "com.google.android.gms.play-services-base": {
     "17.1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-base-17.1.0.ane?raw=true",
-    "17.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-base-17.5.0.ane?raw=true"
+    "17.5.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-base-17.5.0.ane?raw=true",
+    "17.6.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-base-17.6.0.ane?raw=true"
   },
   "com.google.android.gms.play-services-auth": {
     "18.1.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-auth-18.1.0.ane?raw=true",
     "19.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-auth-19.0.0.ane?raw=true"
   },
   "com.google.android.gms.play-services-ads-lite": {
-    "19.3.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-ads-lite-19.3.0.ane?raw=true"
+    "19.3.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-ads-lite-19.3.0.ane?raw=true",
+    "20.2.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.gms.play-services-ads-lite-20.2.0.ane?raw=true"
   },
   "com.google.android.ump.user-messaging-platform": {
     "1.0.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/play-services/com.google.android.ump.user-messaging-platform-1.0.0.ane?raw=true"
