@@ -495,7 +495,8 @@
   "com.tuarua.TaskbarProgressANE": {
     "2.3.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.3.0/TaskbarProgressANE.ane?raw=true",
     "2.4.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.4.0/TaskbarProgressANE.ane?raw=true",
-    "2.5.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.5.0/TaskbarProgressANE.ane?raw=true"
+    "2.5.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.5.0/TaskbarProgressANE.ane?raw=true",
+    "2.6.0": "https://github.com/tuarua/TaskbarProgressANE/releases/download/2.6.0/TaskbarProgressANE.ane?raw=true"
   },
   "com.tuarua.DesktopToastANE": {
     "2.0.0": "https://github.com/tuarua/DesktopToastANE/releases/download/2.0.0/DesktopToastANE.ane?raw=true",
