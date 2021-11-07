@@ -410,7 +410,8 @@
     "2.18.0": "https://github.com/tuarua/WebViewANE/releases/download/2.18.0/WebViewANE.ane?raw=true",
     "2.19.0": "https://github.com/tuarua/WebViewANE/releases/download/2.19.0/WebViewANE.ane?raw=true",
     "2.20.0": "https://github.com/tuarua/WebViewANE/releases/download/2.20.0/WebViewANE.ane?raw=true",
-    "2.21.0": "https://github.com/tuarua/WebViewANE/releases/download/2.21.0/WebViewANE.ane?raw=true"
+    "2.21.0": "https://github.com/tuarua/WebViewANE/releases/download/2.21.0/WebViewANE.ane?raw=true",
+    "2.22.0": "https://github.com/tuarua/WebViewANE/releases/download/2.22.0/WebViewANE.ane?raw=true"
   },
   "com.tuarua.WebViewANE.IosDependencies": {
     "2.12.0": "https://github.com/tuarua/WebViewANE/releases/download/2.12.0/ios_dependencies.zip",
@@ -422,7 +423,8 @@
     "2.18.0": "https://github.com/tuarua/WebViewANE/releases/download/2.18.0/ios_dependencies.zip",
     "2.19.0": "https://github.com/tuarua/WebViewANE/releases/download/2.19.0/ios_dependencies.zip",
     "2.20.0": "https://github.com/tuarua/WebViewANE/releases/download/2.20.0/ios_dependencies.zip",
-    "2.21.0": "https://github.com/tuarua/WebViewANE/releases/download/2.21.0/ios_dependencies.zip"
+    "2.21.0": "https://github.com/tuarua/WebViewANE/releases/download/2.21.0/ios_dependencies.zip",
+    "2.22.0": "https://github.com/tuarua/WebViewANE/releases/download/2.22.0/ios_dependencies.zip"
   },
   "com.tuarua.GoogleMapsANE": {
     "2.8.0": "https://github.com/tuarua/Google-Maps-ANE/releases/download/2.8.0/GoogleMapsANE.ane?raw=true",
