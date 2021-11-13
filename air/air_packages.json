@@ -344,7 +344,8 @@
     "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/FreSwift.ane?raw=true",
     "5.1.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.1.0/FreSwift.ane?raw=true",
     "5.2.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.2.0/FreSwift.ane?raw=true",
-    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/FreSwift.ane?raw=true"
+    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/FreSwift.ane?raw=true",
+    "5.5.1": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.1/FreSwift.ane?raw=true"
   },
   "com.tuarua.FreSharp": {
     "2.4.0": "https://github.com/tuarua/FreSharp/releases/download/2.4.0/FreSharp.ane?raw=true",
@@ -355,14 +356,16 @@
     "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/ios_dependencies.zip",
     "5.1.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.1.0/ios_dependencies.zip",
     "5.2.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.2.0/ios_dependencies.zip",
-    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/ios_dependencies.zip"
+    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/ios_dependencies.zip",
+    "5.5.1": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.1/ios_dependencies.zip"
   },
   "com.tuarua.tvOS.FreSwift": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/tvos_dependencies.zip",
     "5.0.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.0.0/tvos_dependencies.zip",
     "5.1.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.1.0/tvos_dependencies.zip",
     "5.2.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.2.0/tvos_dependencies.zip",
-    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/tvos_dependencies.zip"
+    "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/tvos_dependencies.zip",
+    "5.5.1": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.1/tvos_dependencies.zip"
   },
   "com.tuarua.AIRSDK_additions": {
     "4.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/4.5.0/AIRSDK_additions.zip",
@@ -370,6 +373,7 @@
     "5.1.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.1.0/AIRSDK_additions.zip",
     "5.2.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.2.0/AIRSDK_additions.zip",
     "5.5.0": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.0/AIRSDK_additions.zip"
+    "5.5.1": "https://github.com/tuarua/Swift-IOS-ANE/releases/download/5.5.1/AIRSDK_additions.zip"
   },
   "com.facebook.android.facebook-android-sdk": {
     "5.13.0": "https://github.com/tuarua/Android-ANE-Dependencies/blob/master/anes/facebook/com.facebook.android.facebook-android-sdk-5.13.0.ane?raw=true",
